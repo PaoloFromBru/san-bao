@@ -26,7 +26,7 @@ export default async function InfantPage({ params }: { params: Promise<{ locale:
           <a href={`/${locale}/contact`} className="mt-6 inline-block px-5 py-3 rounded-xl2 border border-gold text-gold hover:bg-gold hover:text-white transition">{t.cta}</a>
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-soft">
-          <img src="/img-infant.svg" alt="" className="w-full h-full object-cover" />
+          <img src="/images/infant-massage.webp" alt="" className="w-full h-full object-cover" />
         </div>
       </header>
     </article>

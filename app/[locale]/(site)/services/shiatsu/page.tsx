@@ -26,7 +26,7 @@ export default async function ShiatsuPage({ params }: { params: Promise<{ locale
           <a href={`/${locale}/contact`} className="mt-6 inline-block px-5 py-3 rounded-xl2 border border-gold text-gold hover:bg-gold hover:text-white transition">{t.cta}</a>
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-soft">
-          <img src="/img-shiatsu.svg" alt="" className="w-full h-full object-cover" />
+          <img src="/images/shiatsu.webp" alt="" className="w-full h-full object-cover" />
         </div>
       </header>
     </article>

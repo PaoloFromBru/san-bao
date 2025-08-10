@@ -11,12 +11,12 @@ npm run dev
 
 ## Dove mettere le immagini finali
 Sostituisci i segnaposto in:
-- `public/img-shiatsu.svg`
-- `public/img-naturopathy.svg`
-- `public/img-infant.svg`
+- `public/images/shiatsu.webp`
+- `public/images/naturopathy.webp`
+- `public/images/infant-massage.webp`
 
 con le illustrazioni originali (ti fornirò un pacchetto immagini separato).
-Mantieni lo **stesso nome file** per non toccare il codice, oppure aggiorna i percorsi nelle pagine servizi e nella home.
+Mantieni lo **stesso nome file** per non toccare il codice.
 
 Per i testi/SEO: modifica i file in `dictionaries/`.
 
