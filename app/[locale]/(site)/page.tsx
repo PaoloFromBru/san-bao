@@ -23,7 +23,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
           <img src="/hero-texture.svg" alt="" className="w-full h-full object-cover opacity-30" />
         </div>
         <div className="mx-auto max-w-6xl px-4 py-20 text-center">
-          <img src="/logo-gold.svg" alt="San Bao" className="mx-auto h-28 w-auto mb-6" />
+           <img src="/images/Logo-colours.png" alt="San Bao" className="mx-auto h-28 w-auto mb-6" />
           <h1 className="text-3xl md:text-5xl font-semibold text-ink">{dict.home.heroHeading}</h1>
           <p className="mt-4 text-lg text-slate-700">{dict.home.heroText}</p>
           <div className="mt-8">
