@@ -1,5 +1,6 @@
 
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { getDictionary } from "@/dictionaries";
 import Nav from "@/components/Nav";
 import { locales, type Locale } from "@/dictionaries";
@@ -35,7 +36,9 @@ export default async function RootLayout({
         <header className="sticky top-0 z-30 bg-white/80 backdrop-blur border-b">
           <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src="/logo-gold.svg" alt="San Bao" className="h-10 w-auto" />
+                <Link href={`/${locale}`}>
+                <img src="/images/Logo-mini.png" alt="San Bao" className="h-10 w-auto" />
+              </Link>
             </div>
             <Nav locale={locale} dict={dict} />
           </div>
