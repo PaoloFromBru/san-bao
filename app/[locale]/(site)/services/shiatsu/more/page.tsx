@@ -7,7 +7,7 @@ export default async function ShiatsuMorePage({ params }: { params: Promise<{ lo
   const t = dict.services.shiatsu;
 
   return (
-    <div className="fixed inset-0 bg-white/90 p-8 overflow-y-auto">
+    <div className="fixed inset-0 z-40 bg-white/90 p-8 overflow-y-auto">
       <Link
         href={`/${locale}/services/shiatsu`}
         className="absolute top-8 right-8 inline-block px-5 py-3 rounded-xl2 border border-gold text-gold hover:bg-gold hover:text-white transition"
