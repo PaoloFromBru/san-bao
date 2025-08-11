@@ -16,7 +16,7 @@ export default async function ShiatsuMorePage({ params }: { params: Promise<{ lo
       </Link>
       <div className="mx-auto max-w-3xl">
         <h1 className="text-3xl font-semibold text-ink mb-4">{t.title}</h1>
-        <p className="text-lg text-slate-700">{dict.placeholder}</p>
+        <p className="text-lg text-slate-700 whitespace-pre-line">{t.more}</p>
       </div>
     </div>
   );
