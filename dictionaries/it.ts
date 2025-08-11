@@ -11,7 +11,15 @@ export const dictionary = {
       infant: { title: "Massaggio bimbi – San Bao", description: "Contatto dolce che favorisce calma, sonno e crescita armoniosa." }
     }
   },
-  nav: { shiatsu:"Shiatsu", naturopathy:"Naturopatia", infant:"Massaggio bimbi", contact:"Contatti" },
+  nav: {
+    shiatsu: "Shiatsu",
+    qiNeiZang: "Qi Nei Zang",
+    naturopathy: "Naturopatia",
+    faceMassage: "Massaggio facciale",
+    infant: "Massaggio bimbi",
+    about: "Chi sono",
+    contact: "Contatti"
+  },
   home: {
     heroHeading: "San Bao",
     heroText: "L'armonia del corpo e della mente per il tuo benessere.",
@@ -28,8 +36,22 @@ export const dictionary = {
   },
   contact: { title:"Contatti", name:"Nome", email:"Email", message:"Messaggio", send:"Invia", whatsapp:"Scrivici su WhatsApp" },
   services: {
-    shiatsu:{ title:"Shiatsu & Qi Nei Zang", lead:"Digitopressione lungo i meridiani e Qi Nei Zang (lavoro viscerale) per sciogliere tensioni e favorire il flusso del Qi.", cta:"Prenota ora" },
-    naturopathy:{ title:"Naturopatia", lead:"Consulenze e percorsi naturali personalizzati: alimentazione, stile di vita e tecniche dolci per il benessere globale.", cta:"Prenota ora" },
-    infant:{ title:"Massaggio neonato", lead:"Contatto dolce per favorire calma, sonno e crescita armoniosa del bambino e rafforzare il legame genitore‑bimbo.", cta:"Prenota ora" }
-  }
+    shiatsu: {
+      title: "Shiatsu & Qi Nei Zang",
+      lead: "Digitopressione lungo i meridiani e Qi Nei Zang (lavoro viscerale) per sciogliere tensioni e favorire il flusso del Qi.",
+      cta: "Prenota ora"
+    },
+    naturopathy: {
+      title: "Naturopatia",
+      lead: "Consulenze e percorsi naturali personalizzati: alimentazione, stile di vita e tecniche dolci per il benessere globale.",
+      cta: "Prenota ora"
+    },
+    infant: {
+      title: "Massaggio neonato",
+      lead: "Contatto dolce per favorire calma, sonno e crescita armoniosa del bambino e rafforzare il legame genitore‑bimbo.",
+      cta: "Prenota ora"
+    }
+  },
+  placeholder: "Contenuto in arrivo.",
+  disclaimer: "IN NESSUN CASO QUESTO ACCOMPAGNAMENTO SOSTITUISCE UN PARERE / SEGUITO MEDICO."
 };
