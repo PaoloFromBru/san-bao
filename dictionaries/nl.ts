@@ -11,7 +11,15 @@ export const dictionary = {
       infant: { title: "Babymassage – San Bao", description: "Zachte aanraking die rust, slaap en harmonieuze groei ondersteunt." }
     }
   },
-  nav: { shiatsu:"Shiatsu", naturopathy:"Naturopathie", infant:"Babymassage", contact:"Contact" },
+  nav: {
+    shiatsu: "Shiatsu",
+    qiNeiZang: "Qi Nei Zang",
+    naturopathy: "Naturopathie",
+    faceMassage: "Gezichtsmassage",
+    infant: "Babymassage",
+    about: "Over mij",
+    contact: "Contact"
+  },
   home: {
     heroHeading: "San Bao",
     heroText: "De harmonie van lichaam en geest voor uw welzijn.",
@@ -28,8 +36,22 @@ export const dictionary = {
   },
   contact: { title:"Contact", name:"Naam", email:"E‑mail", message:"Bericht", send:"Versturen", whatsapp:"Schrijf ons op WhatsApp" },
   services: {
-    shiatsu:{ title:"Shiatsu & Qi Nei Zang", lead:"Drukpuntmassage langs de meridianen en Qi Nei Zang (visceraal werk) om spanning los te laten en de stroom van Qi te ondersteunen.", cta:"Boek nu" },
-    naturopathy:{ title:"Naturopathie", lead:"Persoonlijk natuurlijk advies: voeding, levensstijl en zachte technieken voor algemeen welzijn.", cta:"Boek nu" },
-    infant:{ title:"Babymassage", lead:"Zachte aanraking die rust, slaap en een harmonieuze groei bevordert en de band ouder‑kind versterkt.", cta:"Boek nu" }
-  }
+    shiatsu: {
+      title: "Shiatsu & Qi Nei Zang",
+      lead: "Drukpuntmassage langs de meridianen en Qi Nei Zang (visceraal werk) om spanning los te laten en de stroom van Qi te ondersteunen.",
+      cta: "Boek nu"
+    },
+    naturopathy: {
+      title: "Naturopathie",
+      lead: "Persoonlijk natuurlijk advies: voeding, levensstijl en zachte technieken voor algemeen welzijn.",
+      cta: "Boek nu"
+    },
+    infant: {
+      title: "Babymassage",
+      lead: "Zachte aanraking die rust, slaap en een harmonieuze groei bevordert en de band ouder‑kind versterkt.",
+      cta: "Boek nu"
+    }
+  },
+  placeholder: "Inhoud binnenkort beschikbaar.",
+  disclaimer: "IN GEEN GEVAL VERVANGT DEZE BEGELEIDING EEN MEDISCH ADVIES / OPVOLGING."
 };

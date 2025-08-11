@@ -46,6 +46,7 @@ export default async function RootLayout({
         <main>{children}</main>
         <footer className="mt-16 border-t">
           <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-slate-500">
+            <p className="mb-2">{dict.disclaimer}</p>
             © {new Date().getFullYear()} San Bao
           </div>
         </footer>

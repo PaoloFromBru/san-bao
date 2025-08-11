@@ -11,7 +11,15 @@ export const dictionary = {
       infant: { title: "Massage bébé – San Bao", description: "Un contact doux qui favorise calme, sommeil et croissance harmonieuse." }
     }
   },
-  nav: { shiatsu:"Shiatsu", naturopathy:"Naturopathie", infant:"Massage bébé", contact:"Contacts" },
+  nav: {
+    shiatsu: "Shiatsu",
+    qiNeiZang: "Qi Nei Zang",
+    naturopathy: "Naturopathie",
+    faceMassage: "Massage du visage",
+    infant: "Massage bébé",
+    about: "À propos de moi",
+    contact: "Contacts"
+  },
   home: {
     heroHeading: "San Bao",
     heroText: "L'harmonie du corps et de l'esprit pour votre bien-être.",
@@ -28,8 +36,22 @@ export const dictionary = {
   },
   contact: { title:"Contacts", name:"Nom", email:"Email", message:"Message", send:"Envoyer", whatsapp:"Écrivez‑nous sur WhatsApp" },
   services: {
-    shiatsu:{ title:"Shiatsu & Qi Nei Zang", lead:"Digitopression le long des méridiens et Qi Nei Zang (travail viscéral) pour relâcher les tensions et favoriser la circulation du Qi.", cta:"Prendre rendez‑vous" },
-    naturopathy:{ title:"Naturopathie", lead:"Conseils personnalisés: alimentation, mode de vie et techniques douces pour le bien‑être global.", cta:"Prendre rendez‑vous" },
-    infant:{ title:"Massage bébé", lead:"Un contact doux pour encourager le calme, le sommeil et une croissance harmonieuse, tout en renforçant le lien parent‑enfant.", cta:"Prendre rendez‑vous" }
-  }
+    shiatsu: {
+      title: "Shiatsu & Qi Nei Zang",
+      lead: "Digitopression le long des méridiens et Qi Nei Zang (travail viscéral) pour relâcher les tensions et favoriser la circulation du Qi.",
+      cta: "Prendre rendez‑vous"
+    },
+    naturopathy: {
+      title: "Naturopathie",
+      lead: "Conseils personnalisés: alimentation, mode de vie et techniques douces pour le bien‑être global.",
+      cta: "Prendre rendez‑vous"
+    },
+    infant: {
+      title: "Massage bébé",
+      lead: "Un contact doux pour encourager le calme, le sommeil et une croissance harmonieuse, tout en renforçant le lien parent‑enfant.",
+      cta: "Prendre rendez‑vous"
+    }
+  },
+  placeholder: "Contenu à venir.",
+  disclaimer: "EN AUCUN CAS, CET ACCOMPAGNEMENT NE REMPLACE UN AVIS / SUIVI MEDICAL"
 };

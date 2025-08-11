@@ -11,7 +11,15 @@ export const dictionary = {
       infant: { title: "Masaje bebé – San Bao", description: "Contacto suave que favorece la calma, el sueño y un crecimiento armonioso." }
     }
   },
-  nav: { shiatsu:"Shiatsu", naturopathy:"Naturopatía", infant:"Masaje bebé", contact:"Contacto" },
+  nav: {
+    shiatsu: "Shiatsu",
+    qiNeiZang: "Qi Nei Zang",
+    naturopathy: "Naturopatía",
+    faceMassage: "Masaje facial",
+    infant: "Masaje bebé",
+    about: "Sobre mí",
+    contact: "Contacto"
+  },
   home: {
     heroHeading: "San Bao",
     heroText: "La armonía del cuerpo y la mente para tu bienestar.",
@@ -28,8 +36,22 @@ export const dictionary = {
   },
   contact: { title:"Contacto", name:"Nombre", email:"Email", message:"Mensaje", send:"Enviar", whatsapp:"Escríbenos por WhatsApp" },
   services: {
-    shiatsu:{ title:"Shiatsu & Qi Nei Zang", lead:"Digitopresión a lo largo de los meridianos y Qi Nei Zang (trabajo visceral) para liberar tensiones y favorecer el flujo del Qi.", cta:"Reservar ahora" },
-    naturopathy:{ title:"Naturopatía", lead:"Acompañamiento natural personalizado: alimentación, estilo de vida y técnicas suaves para el bienestar integral.", cta:"Reservar ahora" },
-    infant:{ title:"Masaje bebé", lead:"Un contacto suave que fomenta la calma, el sueño y un crecimiento armonioso, fortaleciendo el vínculo entre padres e hijos.", cta:"Reservar ahora" }
-  }
+    shiatsu: {
+      title: "Shiatsu & Qi Nei Zang",
+      lead: "Digitopresión a lo largo de los meridianos y Qi Nei Zang (trabajo visceral) para liberar tensiones y favorecer el flujo del Qi.",
+      cta: "Reservar ahora"
+    },
+    naturopathy: {
+      title: "Naturopatía",
+      lead: "Acompañamiento natural personalizado: alimentación, estilo de vida y técnicas suaves para el bienestar integral.",
+      cta: "Reservar ahora"
+    },
+    infant: {
+      title: "Masaje bebé",
+      lead: "Un contacto suave que fomenta la calma, el sueño y un crecimiento armonioso, fortaleciendo el vínculo entre padres e hijos.",
+      cta: "Reservar ahora"
+    }
+  },
+  placeholder: "Contenido próximamente.",
+  disclaimer: "EN NINGÚN CASO ESTE ACOMPAÑAMIENTO SUSTITUYE UN CONSEJO / SEGUIMIENTO MÉDICO."
 };
