@@ -52,6 +52,7 @@ export const dictionary = {
       cta: "Boek nu"
     }
   },
+  more: "Meer",
   placeholder: "Inhoud binnenkort beschikbaar.",
   disclaimer: "IN GEEN GEVAL VERVANGT DEZE BEGELEIDING EEN MEDISCH ADVIES / OPVOLGING."
 };

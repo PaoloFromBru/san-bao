@@ -1,6 +1,5 @@
 
 import Link from "next/link";
-import SetmoreButton from "@/components/SetmoreButton";
 import { getDictionary, type Locale } from "@/dictionaries";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
@@ -27,9 +26,6 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
            <img src="/images/Logo-colours.png" alt="San Bao" className="mx-auto h-28 w-auto mb-6" />
           <h1 className="text-3xl md:text-5xl font-semibold text-ink">{dict.home.heroHeading}</h1>
           <p className="mt-4 text-lg text-slate-700">{dict.home.heroText}</p>
-          <div className="mt-8">
-            <SetmoreButton alt={dict.home.heroCta} />
-          </div>
         </div>
       </section>
 

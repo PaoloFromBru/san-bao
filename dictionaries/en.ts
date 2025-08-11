@@ -52,6 +52,7 @@ export const dictionary = {
       cta: "Book now"
     }
   },
+  more: "More",
   placeholder: "Content coming soon.",
   disclaimer: "UNDER NO CIRCUMSTANCES DOES THIS SUPPORT REPLACE MEDICAL ADVICE OR FOLLOW-UP."
 };
