@@ -36,7 +36,7 @@ export default async function InfantPage({ params }: { params: Promise<{ locale:
           </div>
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-soft">
-          <img src="/images/infant-massage.webp" alt="" className="w-full h-full object-cover" />
+          <img src="/images/MassageBebe.png" alt="" className="w-full h-full object-cover" />
         </div>
       </header>
     </article>
