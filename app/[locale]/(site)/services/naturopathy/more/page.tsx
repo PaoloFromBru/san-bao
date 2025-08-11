@@ -7,7 +7,7 @@ export default async function NaturopathyMorePage({ params }: { params: Promise<
   const t = dict.services.naturopathy;
 
   return (
-    <div className="fixed inset-0 bg-white/90 p-8 overflow-y-auto">
+    <div className="fixed inset-0 z-40 bg-white/90 p-8 overflow-y-auto">
       <Link
         href={`/${locale}/services/naturopathy`}
         className="absolute top-8 right-8 inline-block px-5 py-3 rounded-xl2 border border-gold text-gold hover:bg-gold hover:text-white transition"
