@@ -52,6 +52,7 @@ export const dictionary = {
       cta: "Reservar ahora"
     }
   },
+  more: "Más",
   placeholder: "Contenido próximamente.",
   disclaimer: "EN NINGÚN CASO ESTE ACOMPAÑAMIENTO SUSTITUYE UN CONSEJO / SEGUIMIENTO MÉDICO."
 };

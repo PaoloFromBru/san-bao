@@ -52,6 +52,7 @@ export const dictionary = {
       cta: "Prenota ora"
     }
   },
+  more: "Più",
   placeholder: "Contenuto in arrivo.",
   disclaimer: "IN NESSUN CASO QUESTO ACCOMPAGNAMENTO SOSTITUISCE UN PARERE / SEGUITO MEDICO."
 };

@@ -52,6 +52,7 @@ export const dictionary = {
       cta: "Prendre rendez‑vous"
     }
   },
+  more: "Plus",
   placeholder: "Contenu à venir.",
   disclaimer: "EN AUCUN CAS, CET ACCOMPAGNEMENT NE REMPLACE UN AVIS / SUIVI MEDICAL"
 };
