@@ -6,7 +6,7 @@ export const dictionary = {
     home: { title: "San Bao – Shiatsu & Naturopathy", description: "Restore balance and breath with manual treatments and natural approaches." },
     contact: { title: "Contact – San Bao", description: "Book an appointment or ask for information. We are in Brussels." },
     services: {
-      shiatsu: { title: "Shiatsu & Qi Nei Zang – San Bao", description: "Acupressure and visceral work to harmonise energy (Qi)." },
+      shiatsu: { title: "Shiatsu – San Bao", description: "Acupressure to harmonise energy (Qi)." },
       naturopathy: { title: "Naturopathy – San Bao", description: "Personalised natural guidance for overall wellbeing." },
       infant: { title: "Infant massage – San Bao", description: "Gentle touch that supports calm, sleep and harmonious growth." }
     }
@@ -36,11 +36,11 @@ export const dictionary = {
   },
   contact: { title:"Contact", name:"Name", email:"Email", message:"Message", send:"Send", whatsapp:"Message us on WhatsApp" },
   services: {
-    shiatsu: {
-      title: "Shiatsu & Qi Nei Zang",
-      lead: "Acupressure along the meridians and Qi Nei Zang (visceral work) to release tension and support the flow of Qi.",
-      cta: "Book now"
-    },
+      shiatsu: {
+        title: "Shiatsu",
+        lead: "Acupressure along the meridians to release tension and support the flow of Qi.",
+        cta: "Book now"
+      },
     naturopathy: {
       title: "Naturopathy",
       lead: "Personalised natural guidance: nutrition, lifestyle and gentle techniques for overall wellbeing.",
@@ -52,7 +52,8 @@ export const dictionary = {
       cta: "Book now"
     }
   },
-  more: "More",
-  placeholder: "Content coming soon.",
+    more: "More",
+    close: "Close",
+    placeholder: "Content coming soon.",
   disclaimer: "UNDER NO CIRCUMSTANCES DOES THIS SUPPORT REPLACE MEDICAL ADVICE OR FOLLOW-UP."
 };
