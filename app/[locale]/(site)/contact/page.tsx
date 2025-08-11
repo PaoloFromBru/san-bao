@@ -1,5 +1,6 @@
 
 import { getDictionary, type Locale } from "@/dictionaries";
+import SetmoreButton from "@/components/SetmoreButton";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
@@ -19,6 +20,10 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   return (
     <div className="mx-auto max-w-6xl px-4 py-12">
       <h1 className="text-3xl font-semibold text-ink mb-6">{dict.contact.title}</h1>
+
+      <div className="mb-6">
+        <SetmoreButton alt={dict.home.heroCta} />
+      </div>
 
       <div className="grid gap-8 md:grid-cols-2 items-start">
         <form className="space-y-4">

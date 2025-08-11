@@ -1,5 +1,6 @@
 
 import { getDictionary, type Locale } from "@/dictionaries";
+import SetmoreButton from "@/components/SetmoreButton";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
@@ -23,7 +24,7 @@ export default async function ShiatsuPage({ params }: { params: Promise<{ locale
         <div>
           <h1 className="text-3xl font-semibold text-ink">{t.title}</h1>
           <p className="mt-4 text-lg text-slate-700">{t.lead}</p>
-          <a href={`/${locale}/contact`} className="mt-6 inline-block px-5 py-3 rounded-xl2 border border-gold text-gold hover:bg-gold hover:text-white transition">{t.cta}</a>
+            <SetmoreButton alt={t.cta} />
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-soft">
           <img src="/images/shiatsu.webp" alt="" className="w-full h-full object-cover" />

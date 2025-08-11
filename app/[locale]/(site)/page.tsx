@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import SetmoreButton from "@/components/SetmoreButton";
 import { getDictionary, type Locale } from "@/dictionaries";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
@@ -27,9 +28,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
           <h1 className="text-3xl md:text-5xl font-semibold text-ink">{dict.home.heroHeading}</h1>
           <p className="mt-4 text-lg text-slate-700">{dict.home.heroText}</p>
           <div className="mt-8">
-            <Link href={`/${locale}/contact`} className="inline-block px-6 py-3 rounded-xl2 border border-gold text-gold hover:bg-gold hover:text-white transition shadow-soft">
-              {dict.home.heroCta}
-            </Link>
+            <SetmoreButton alt={dict.home.heroCta} />
           </div>
         </div>
       </section>
