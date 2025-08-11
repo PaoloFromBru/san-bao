@@ -6,7 +6,7 @@ export const dictionary = {
     home: { title: "San Bao – Shiatsu & Naturopathie", description: "Herstel balans en ademhaling met manuele behandelingen en natuurlijke benaderingen." },
     contact: { title: "Contact – San Bao", description: "Maak een afspraak of vraag informatie. We zijn in Brussel." },
     services: {
-      shiatsu: { title: "Shiatsu & Qi Nei Zang – San Bao", description: "Drukpuntmassage en visceraal werk om de energie (Qi) te harmoniseren." },
+        shiatsu: { title: "Shiatsu – San Bao", description: "Drukpuntmassage om de energie (Qi) te harmoniseren." },
       naturopathy: { title: "Naturopathie – San Bao", description: "Persoonlijk natuurlijk advies voor algemeen welzijn." },
       infant: { title: "Babymassage – San Bao", description: "Zachte aanraking die rust, slaap en harmonieuze groei ondersteunt." }
     }
@@ -36,9 +36,9 @@ export const dictionary = {
   },
   contact: { title:"Contact", name:"Naam", email:"E‑mail", message:"Bericht", send:"Versturen", whatsapp:"Schrijf ons op WhatsApp" },
   services: {
-    shiatsu: {
-      title: "Shiatsu & Qi Nei Zang",
-      lead: "Drukpuntmassage langs de meridianen en Qi Nei Zang (visceraal werk) om spanning los te laten en de stroom van Qi te ondersteunen.",
+      shiatsu: {
+        title: "Shiatsu",
+        lead: "Drukpuntmassage langs de meridianen om spanning los te laten en de stroom van Qi te ondersteunen.",
       cta: "Boek nu"
     },
     naturopathy: {
@@ -52,7 +52,8 @@ export const dictionary = {
       cta: "Boek nu"
     }
   },
-  more: "Meer",
-  placeholder: "Inhoud binnenkort beschikbaar.",
+    more: "Meer",
+    close: "Sluiten",
+    placeholder: "Inhoud binnenkort beschikbaar.",
   disclaimer: "IN GEEN GEVAL VERVANGT DEZE BEGELEIDING EEN MEDISCH ADVIES / OPVOLGING."
 };

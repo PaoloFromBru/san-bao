@@ -6,7 +6,7 @@ export const dictionary = {
     home: { title: "San Bao – Shiatsu & Naturopathie", description: "Retrouvez équilibre et respiration grâce aux soins manuels et aux approches naturelles." },
     contact: { title: "Contacts – San Bao", description: "Prenez rendez‑vous ou demandez des informations. Nous sommes à Bruxelles." },
     services: {
-      shiatsu: { title: "Shiatsu & Qi Nei Zang – San Bao", description: "Digitopression et travail viscéral pour harmoniser l’énergie (Qi)." },
+        shiatsu: { title: "Shiatsu – San Bao", description: "Digitopression pour harmoniser l’énergie (Qi)." },
       naturopathy: { title: "Naturopathie – San Bao", description: "Conseils et parcours naturels personnalisés pour le bien‑être global." },
       infant: { title: "Massage bébé – San Bao", description: "Un contact doux qui favorise calme, sommeil et croissance harmonieuse." }
     }
@@ -36,9 +36,9 @@ export const dictionary = {
   },
   contact: { title:"Contacts", name:"Nom", email:"Email", message:"Message", send:"Envoyer", whatsapp:"Écrivez‑nous sur WhatsApp" },
   services: {
-    shiatsu: {
-      title: "Shiatsu & Qi Nei Zang",
-      lead: "Digitopression le long des méridiens et Qi Nei Zang (travail viscéral) pour relâcher les tensions et favoriser la circulation du Qi.",
+      shiatsu: {
+        title: "Shiatsu",
+        lead: "Digitopression le long des méridiens pour relâcher les tensions et favoriser la circulation du Qi.",
       cta: "Prendre rendez‑vous"
     },
     naturopathy: {
@@ -52,7 +52,8 @@ export const dictionary = {
       cta: "Prendre rendez‑vous"
     }
   },
-  more: "Plus",
-  placeholder: "Contenu à venir.",
+    more: "Plus",
+    close: "Fermer",
+    placeholder: "Contenu à venir.",
   disclaimer: "EN AUCUN CAS, CET ACCOMPAGNEMENT NE REMPLACE UN AVIS / SUIVI MEDICAL"
 };

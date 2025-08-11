@@ -28,12 +28,12 @@ export default function SetmoreButton({
   }, []);
 
   return (
-    <a id={id} href={bookingUrl} style={{ float: "none" }}>
-      <img
-        src="https://assets.setmore.com/setmore/images/2.0/Settings/book-now-black.svg"
-        alt={alt}
-        style={{ border: "none" }}
-      />
+    <a
+      id={id}
+      href={bookingUrl}
+      className="inline-block px-5 py-3 rounded-xl2 border border-gold text-gold hover:bg-gold hover:text-white transition"
+    >
+      {alt}
     </a>
   );
 }
