@@ -50,6 +50,11 @@ export const dictionary = {
       title: "Massaggio neonato",
       lead: "Contatto dolce per favorire calma, sonno e crescita armoniosa del bambino e rafforzare il legame genitore‑bimbo.",
       cta: "Prenota ora"
+    },
+    faceMassage: {
+      title: "Massaggio facciale",
+      cta: "Prenota ora",
+      more: "Massaggio facciale in stile Kobido.\n\nIl Kobido è un massaggio giapponese che tonifica i muscoli del viso, attiva la microcircolazione e ha effetti visibili sulla bellezza della pelle del viso.\n\nLa seduta di Kobido dura 50 minuti e costa 60 €. Poiché gli effetti visibili del Kobido sono legati alla sua pratica regolare, il pacchetto di 6 massaggi costa 300 €, ovvero un massaggio in omaggio."
     }
   },
     more: "Più",

@@ -1,4 +1,3 @@
-
 export const dictionary = {
   meta: {
     siteName: "San Bao – Shiatsu & Naturopathie",
@@ -39,8 +38,8 @@ export const dictionary = {
       shiatsu: {
         title: "Shiatsu",
         lead: "Digitopression le long des méridiens pour relâcher les tensions et favoriser la circulation du Qi.",
-      cta: "Prendre rendez‑vous"
-    },
+        cta: "Prendre rendez‑vous"
+      },
     naturopathy: {
       title: "Naturopathie",
       lead: "Conseils personnalisés: alimentation, mode de vie et techniques douces pour le bien‑être global.",
@@ -50,6 +49,11 @@ export const dictionary = {
       title: "Massage bébé",
       lead: "Un contact doux pour encourager le calme, le sommeil et une croissance harmonieuse, tout en renforçant le lien parent‑enfant.",
       cta: "Prendre rendez‑vous"
+    },
+    faceMassage: {
+      title: "Massage du visage",
+      cta: "Prendre rendez‑vous",
+      more: "massage du visage de style kobido.\n\nLe kobido est un massage japonais qui tonifie les muscles du visage, active la micro-circulation et a des effets visibles sur la beauté de la peau du visage.\n\nLa séance de kobido dure 50 minutes et coûte 60€. Etant donné que les effets visibles du kobido sont liés à sa pratique régulière, la carte de 6 massage est au prix de 300€, soit un massage offert."
     }
   },
     more: "Plus",
