@@ -4,3 +4,4 @@
 :root{color-scheme:light}
 body{@apply bg-white text-slate-800}
 a{@apply transition}
+body>iframe[src*="setmore"],body>div[id*="setmore"]{top:4rem!important;height:calc(100% - 4rem)!important}
