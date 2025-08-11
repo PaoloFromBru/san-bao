@@ -50,6 +50,11 @@ export const dictionary = {
       title: "Babymassage",
       lead: "Zachte aanraking die rust, slaap en een harmonieuze groei bevordert en de band ouder‑kind versterkt.",
       cta: "Boek nu"
+    },
+    faceMassage: {
+      title: "Gezichtsmassage",
+      cta: "Boek nu",
+      more: "Kobido-stijl gezichtsmassage.\n\nKobido is een Japanse massage die de gezichtsspieren verstevigt, de microcirculatie activeert en zichtbare effecten heeft op de schoonheid van de gezichtshuid.\n\nEen Kobido-sessie duurt 50 minuten en kost €60. Omdat de zichtbare effecten van Kobido verbonden zijn aan regelmatige beoefening, kost een kaart van 6 massages €300, wat neerkomt op één massage gratis."
     }
   },
     more: "Meer",

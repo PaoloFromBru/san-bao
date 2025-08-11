@@ -4,6 +4,7 @@ import Link from "next/link";
 export default async function FaceMassageMorePage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const t = dict.services.faceMassage;
 
   return (
     <div className="fixed inset-0 z-40 bg-white/90 p-8 overflow-y-auto">
@@ -14,8 +15,8 @@ export default async function FaceMassageMorePage({ params }: { params: Promise<
         {dict.close}
       </Link>
       <div className="mx-auto max-w-3xl">
-        <h1 className="text-3xl font-semibold text-ink mb-4">{dict.nav.faceMassage}</h1>
-        <p className="text-lg text-slate-700">{dict.placeholder}</p>
+        <h1 className="text-3xl font-semibold text-ink mb-4">{t.title}</h1>
+        <p className="text-lg text-slate-700 whitespace-pre-line">{t.more}</p>
       </div>
     </div>
   );
