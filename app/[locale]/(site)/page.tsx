@@ -28,7 +28,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
           <h1 className="text-3xl md:text-5xl font-semibold text-ink">{dict.home.heroHeading}</h1>
           <p className="mt-4 text-lg text-slate-700">{dict.home.heroText}</p>
           <div className="mt-8">
-            <SetmoreButton label={dict.home.heroCta} />
+            <SetmoreButton alt={dict.home.heroCta} />
           </div>
         </div>
       </section>

@@ -24,7 +24,7 @@ export default async function InfantPage({ params }: { params: Promise<{ locale:
         <div>
           <h1 className="text-3xl font-semibold text-ink">{t.title}</h1>
           <p className="mt-4 text-lg text-slate-700">{t.lead}</p>
-            <SetmoreButton label={t.cta} />
+            <SetmoreButton alt={t.cta} />
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-soft">
           <img src="/images/infant-massage.webp" alt="" className="w-full h-full object-cover" />

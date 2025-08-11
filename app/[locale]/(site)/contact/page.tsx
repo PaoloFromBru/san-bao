@@ -22,7 +22,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       <h1 className="text-3xl font-semibold text-ink mb-6">{dict.contact.title}</h1>
 
       <div className="mb-6">
-        <SetmoreButton label={dict.home.heroCta} />
+        <SetmoreButton alt={dict.home.heroCta} />
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 items-start">
