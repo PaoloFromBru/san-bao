@@ -96,5 +96,5 @@ Christel`
     more: "Meer",
     close: "Sluiten",
     placeholder: "Inhoud binnenkort beschikbaar.",
-  disclaimer: "IN GEEN GEVAL VERVANGT DEZE BEGELEIDING EEN MEDISCH ADVIES / OPVOLGING."
+  disclaimer: "De beoefenaar van Shiatsu, Qi Nei Zang of Naturopathie vervangt de arts niet. De voorgestelde sessies zijn aanvullende begeleiding maar vervangen in geen geval medisch advies of opvolging. Adviezen moeten altijd worden gevalideerd door uw behandelend arts."
 };

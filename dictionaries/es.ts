@@ -96,5 +96,5 @@ Christel`
     more: "Más",
     close: "Cerrar",
     placeholder: "Contenido próximamente.",
-  disclaimer: "EN NINGÚN CASO ESTE ACOMPAÑAMIENTO SUSTITUYE UN CONSEJO / SEGUIMIENTO MÉDICO."
+  disclaimer: "El practicante de Shiatsu, Qi Nei Zang o Naturopatía no sustituye al médico. Las sesiones propuestas son acompañamientos complementarios pero en ningún caso reemplazan un consejo o seguimiento médico. Los consejos siempre deben ser validados por su médico tratante."
 };
