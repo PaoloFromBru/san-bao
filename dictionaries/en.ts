@@ -62,6 +62,7 @@ export const dictionary = {
     },
     faceMassage: {
       title: "Face massage",
+      lead: "Discover the glow of a 50-minute Kobido face massage that tones facial muscles, boosts microcirculation and reveals radiant skin.",
       cta: "Book now",
       more: "Kobido-style face massage.\n\nKobido is a Japanese massage that tones the facial muscles, activates microcirculation and has visible effects on the beauty of the skin.\n\nA Kobido session lasts 50 minutes and costs €60. Since the visible effects of Kobido are linked to regular practice, a 6-massage card is priced at €300, giving you one massage free."
     }

@@ -61,6 +61,7 @@ export const dictionary = {
     },
     faceMassage: {
       title: "Massage du visage",
+      lead: "Découvrez l'éclat d'un massage visage Kobido de 50 minutes qui tonifie les muscles, stimule la microcirculation et révèle une peau rayonnante.",
       cta: "Prendre rendez‑vous",
       more: "massage du visage de style kobido.\n\nLe kobido est un massage japonais qui tonifie les muscles du visage, active la micro-circulation et a des effets visibles sur la beauté de la peau du visage.\n\nLa séance de kobido dure 50 minutes et coûte 60€. Etant donné que les effets visibles du kobido sont liés à sa pratique régulière, la carte de 6 massage est au prix de 300€, soit un massage offert."
     }
