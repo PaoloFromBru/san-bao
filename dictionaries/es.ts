@@ -35,6 +35,31 @@ export const dictionary = {
     contactLead:"¿Tienes preguntas? Contáctanos",
     contactBtn:"Contacto"
   },
+  about: {
+    content: `Fundé San Bao porque creo en un enfoque personalizado para tu bienestar, ya que cada individuo es único. El nombre "San Bao" simboliza los "tres tesoros": el cuerpo, la energía y el espíritu. Mi misión es acompañarte en el camino hacia la armonía.
+
+Tu guía hacia el bienestar holístico.
+Apasionada por el toque terapéutico, desarrollo mis competencias a través de múltiples formaciones desde 2010:
+
+• Shiatsu y Qi Nei Zang:
+   - shiatsu de bienestar (Masunaga) con Philippe Vandenabeele – Shinzuikai durante 2 años.
+   - shiatsu terapéutico con Ivan Bel – EBST – (a quien también asistí durante un año al finalizar mi formación) y Philippe Banai (Ryoho Shiatsu – www.ryohoshiatsu.com) durante 4 años.
+   - especialización en Qi Nei Zang (o Chi Nei Tsang, «masaje de los órganos» – www.idoschool.be)
+
+• Reiki y Touch for Health (Centro Internacional de Reiki y www.ressourcetoit.be).
+
+• Herbolaria (con Anysia Ducastel) y naturopatía (Phytocorsa y E.N.S.A. European Naturopathic School Association)
+
+• Geobiología: formación con Alain de Luzan – Geobios – en 2019; tener en cuenta el entorno para un bienestar completo.
+
+• Diversos cursos ayudan a profundizar mis conocimientos, entre ellos: formación en masaje sueco en 2010, cursos de MTC de Raphael Piotto seguidos en 2015, shiatsu terapéutico y shiatsu fluídico con Bernard Bouheret, cursos de Gua Sha Thai familiar con Gilles Thuriaux en 2019, bioenergía en el centro Résonnances Vivantes, anatomía palpatoria (EEM), Seiki con Frans Copers (2022) y diversas iniciaciones a la reflexología de manos y pies.
+
+Conviértete en el actor de tu propio equilibrio.
+Estos universos diferentes me permiten ofrecerte un acompañamiento global y personalizado basado en el trabajo corporal, los consejos de higiene de vida y una escucha atenta, que va más allá de cuidados puntuales y te permitirá tomar las riendas de tu bienestar, ya sea para aliviar el estrés, los dolores o simplemente para cuidarte. Por supuesto, todos los consejos se dan con el acuerdo de tu médico y respetando los tratamientos médicos en curso. En ningún caso me sustituyo al médico.
+
+¡Espero conocerte pronto!
+Christel`
+  },
   contact: { title:"Contacto", name:"Nombre", email:"Email", message:"Mensaje", send:"Enviar", whatsapp:"Escríbenos por WhatsApp" },
   services: {
       shiatsu: {

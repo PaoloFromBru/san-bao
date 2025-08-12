@@ -34,6 +34,31 @@ export const dictionary = {
     contactLead:"Des questions ? Contactez‑nous",
     contactBtn:"Contacts"
   },
+  about: {
+    content: `J'ai fondé San Bao, parce que je crois en une approche personnalisée pour votre bien-être, car chaque individu est unique. Le nom "San Bao" symbolise les "trois trésors" : le corps, l'énergie et l'esprit. Ma mission est de vous accompagner sur le chemin de l'harmonie.
+
+Votre guide vers le bien-être holistique.
+Passionnée par le toucher thérapeutique, je développe mes compétences à travers de multiples formations depuis 2010:
+
+• Shiatsu et Qi Nei Zang :
+   - shiatsu de bien-être (Masunaga) avec Philippe Vandenabeele - Shinzuikai pendant 2 ans.
+   -  shiatsu thérapeutique auprès d'Ivan Bel - EBST - (que j'ai également assisté un an à l'issue de ma formation) et de Philippe Banai (Ryoho Shiatsu - www.ryohoshiatsu.com) pendant 4 ans.
+   -  spécialisation en Qi Nei Zang (ou Chi Nei Tsang, "massage des organes" - www.idoschool.be)
+
+• Reiki et Touch for Health (Centre international de Reiki et www.ressourcetoit.be).
+
+• Herboristerie (auprès d'Anysia Ducastel) et naturopathie : (Phytocorsa et E.N.S.A. European Naturopathic School Association)
+
+• Géobiologie : formation d'Alain de Luzan - Geobios - en 2019; prendre en compte l'environnement pour un bien-être complet.
+
+• Plusieurs stages contribuent à approfondir mes connaissances, comme, entre autres : la formation de massage suédois en 2010, les cours de MTC de Raphael Piotto suivis en 2015, le shiatsu thérapeutique et shiatsu fluidique avec Bernard Bouheret, les cours de Gua Sha Thai familial suivi auprès de Gilles Thuriaux en 2019, la bioénergie au centre Résonnances Vivantes, l'anatomie palpatoire (EEM), le Seiki avec Frans Copers (2022) ou encore différentes initiations de réflexologie palmaire et plantaire.
+
+Devenez l'acteur de votre propre équilibre.
+Ces différents univers me permettent de vous offir un accompagnement global et personnalisé qui se base sur le travail corporel, les conseils en hygiène de vie, et une écoute attentive, qui va au-delà de soins ponctuels et qui vous permettra de prendre en main votre bien-être, que ce soit pour soulager le stress, les douleurs, ou simplement pour prendre soin de vous. Bien évidemment, tous les conseils prodigués se font avec l'accord de votre médecin traitant et en respectant les éventuels traitements médicaux en cours. En aucun cas, je ne me substitue à un médecin.
+
+Au plaisir de vous rencontrer!
+Christel`
+  },
   contact: { title:"Contacts", name:"Nom", email:"Email", message:"Message", send:"Envoyer", whatsapp:"Écrivez‑nous sur WhatsApp" },
   services: {
       shiatsu: {

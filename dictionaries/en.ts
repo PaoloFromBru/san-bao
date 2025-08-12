@@ -35,6 +35,31 @@ export const dictionary = {
     contactLead:"Questions? Get in touch",
     contactBtn:"Contact"
   },
+  about: {
+    content: `I founded San Bao because I believe in a personalised approach to your well-being, as each individual is unique. The name "San Bao" symbolises the "three treasures": body, energy and spirit. My mission is to support you on the path to harmony.
+
+Your guide to holistic well-being.
+Passionate about therapeutic touch, I have been developing my skills through various trainings since 2010:
+
+• Shiatsu and Qi Nei Zang:
+   - well-being shiatsu (Masunaga) with Philippe Vandenabeele – Shinzuikai for 2 years.
+   - therapeutic shiatsu with Ivan Bel – EBST – (whom I also assisted for a year after my training) and Philippe Banai (Ryoho Shiatsu – www.ryohoshiatsu.com) for 4 years.
+   - specialisation in Qi Nei Zang (or Chi Nei Tsang, "organ massage" – www.idoschool.be)
+
+• Reiki and Touch for Health (International Reiki Centre and www.ressourcetoit.be).
+
+• Herbalism (with Anysia Ducastel) and naturopathy (Phytocorsa and E.N.S.A. European Naturopathic School Association)
+
+• Geobiology: training with Alain de Luzan – Geobios – in 2019; taking the environment into account for complete well-being.
+
+• Several workshops help deepen my knowledge, among others: Swedish massage training in 2010, TCM courses with Raphael Piotto in 2015, therapeutic and fluidic shiatsu with Bernard Bouheret, family Thai Gua Sha course with Gilles Thuriaux in 2019, bioenergy at the Résonnances Vivantes centre, palpatory anatomy (EEM), Seiki with Frans Copers (2022) and various introductions to hand and foot reflexology.
+
+Become the actor of your own balance.
+These different universes allow me to offer you comprehensive and personalised support based on bodywork, lifestyle advice and attentive listening, going beyond occasional treatments to help you take charge of your well-being, whether to relieve stress, pain or simply to take care of yourself. Of course, all advice is given with the agreement of your doctor and respecting any ongoing medical treatments. I do not replace a doctor under any circumstances.
+
+Looking forward to meeting you!
+Christel`
+  },
   contact: { title:"Contact", name:"Name", email:"Email", message:"Message", send:"Send", whatsapp:"Message us on WhatsApp" },
   services: {
       shiatsu: {

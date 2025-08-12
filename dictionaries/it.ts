@@ -35,6 +35,31 @@ export const dictionary = {
     contactLead:"Hai domande? Contattaci",
     contactBtn:"Contatti"
   },
+  about: {
+    content: `Ho fondato San Bao perché credo in un approccio personalizzato al tuo benessere, poiché ogni individuo è unico. Il nome "San Bao" simboleggia i "tre tesori": corpo, energia e spirito. La mia missione è accompagnarti sul cammino dell'armonia.
+
+Il tuo riferimento per il benessere olistico.
+Appassionata al contatto terapeutico, sviluppo le mie competenze attraverso molteplici formazioni dal 2010:
+
+• Shiatsu e Qi Nei Zang:
+   - shiatsu di benessere (Masunaga) con Philippe Vandenabeele – Shinzuikai per 2 anni.
+   - shiatsu terapeutico con Ivan Bel – EBST – (che ho anche assistito per un anno al termine della formazione) e Philippe Banai (Ryoho Shiatsu – www.ryohoshiatsu.com) per 4 anni.
+   - specializzazione in Qi Nei Zang (o Chi Nei Tsang, «massaggio degli organi» – www.idoschool.be)
+
+• Reiki e Touch for Health (Centro internazionale di Reiki e www.ressourcetoit.be).
+
+• Erboristeria (con Anysia Ducastel) e naturopatia (Phytocorsa e E.N.S.A. European Naturopathic School Association)
+
+• Geobiologia: formazione con Alain de Luzan – Geobios – nel 2019; considerare l'ambiente per un benessere completo.
+
+• Diversi stage contribuiscono ad approfondire le mie conoscenze, tra cui: la formazione in massaggio svedese nel 2010, i corsi di MTC con Raphael Piotto seguiti nel 2015, lo shiatsu terapeutico e fluidico con Bernard Bouheret, i corsi di Gua Sha Thai familiare con Gilles Thuriaux nel 2019, la bioenergia presso il centro Résonnances Vivantes, l’anatomia palpatoria (EEM), il Seiki con Frans Copers (2022) e varie iniziazioni alla reflessologia palmare e plantare.
+
+Diventa protagonista del tuo equilibrio.
+Questi diversi universi mi permettono di offrirti un accompagnamento globale e personalizzato che si basa sul lavoro corporeo, i consigli di igiene di vita e un ascolto attento, andando oltre le cure occasionali e permettendoti di prendere in mano il tuo benessere, che sia per alleviare stress, dolori o semplicemente per prenderti cura di te. Naturalmente, tutti i consigli vengono forniti con l’accordo del tuo medico curante e nel rispetto di eventuali trattamenti in corso. In nessun caso mi sostituisco a un medico.
+
+Piacere di incontrarti!
+Christel`
+  },
   contact: { title:"Contatti", name:"Nome", email:"Email", message:"Messaggio", send:"Invia", whatsapp:"Scrivici su WhatsApp" },
   services: {
       shiatsu: {
