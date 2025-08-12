@@ -52,7 +52,8 @@ export const dictionary = {
     naturopathy: {
       title: "Naturopatía",
       lead: "Acompañamiento natural personalizado: alimentación, estilo de vida y técnicas suaves para el bienestar integral.",
-      cta: "Reservar ahora"
+      cta: "Reservar ahora",
+      more: "«El microbio no es nada, el terreno biológico lo es todo».\nEl naturópata es ante todo un guía que, basándose en la evaluación de la vitalidad realizada, propone un programa personalizado de higiene vital con el fin de potenciar las capacidades de autocuración de la persona, desintoxicarla y suplir posibles carencias.\n\nEl programa de higiene vital que estableceremos juntos tendrá en cuenta tu entorno familiar, social y profesional; tus hábitos alimentarios y deportivos; tu nivel de estrés, la calidad de tu sueño y tu apetito, etc.\n\nEl programa aconseja el uso de plantas, incluye curas desintoxicantes y remineralizantes, pero también propone masajes (shiatsu/Qi Nei Zang) o técnicas hidroterápicas. La primera sesión dura 1h30 y cuesta 80 €. El objetivo de esta sesión es entender tu entorno, tus hábitos, tu estilo de vida y tus expectativas. Al término de esta evaluación de la vitalidad, te preparo un protocolo personalizado que se desarrolla a lo largo de varias semanas. Este protocolo proporcionará consejos relativos a la alimentación y a otros aspectos de la vida cotidiana (actividad, plantas, relajación, etc.)\n\nLas sesiones de seguimiento, opcionales, duran 1 hora y cuestan 65 €.\n\n¿Quieres saber más?\n\nEl naturópata en ningún caso sustituye al médico; te acompaña teniendo en cuenta los tratamientos médicos en curso."
     },
     infant: {
       title: "Masaje bebé",

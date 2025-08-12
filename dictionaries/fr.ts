@@ -51,7 +51,8 @@ export const dictionary = {
     naturopathy: {
       title: "Naturopathie",
       lead: "Conseils personnalisés: alimentation, mode de vie et techniques douces pour le bien‑être global.",
-      cta: "Prendre rendez‑vous"
+      cta: "Prendre rendez‑vous",
+      more: "« Le microbe n’est rien, le terrain biologique est tout ».\nLe naturopathe est avant tout un guide qui, sur la base de l’évaluation de vitalité réalisée, propose un programme personnalisé d’hygiène vitale afin de renforcer les capacités d’autoguérison de la personne, de la détoxifier et de combler d’éventuelles carences.\n\nLe programme d’hygiène vitale que nous établirons ensemble tiendra compte de votre environnement familial, social et professionnel ; de vos habitudes alimentaires et sportives ; de votre niveau de stress, de la qualité de votre sommeil et de votre appétit, etc.\n\nLe programme conseille l’utilisation des plantes, comprend des cures détoxifiantes et reminéralisantes mais propose aussi des massages (shiatsu/Qi Nei Zang) ou des techniques d’hydrothérapie. La première séance dure 1h30 et coûte 80 €. L’objectif de cette séance est de comprendre votre environnement, vos habitudes, votre mode de vie et vos attentes. À l’issue de cette évaluation de vitalité, je vous prépare un protocole personnalisé qui se déroule sur plusieurs semaines. Ce protocole fournira des conseils relatifs à l’alimentation et à d’autres aspects de la vie quotidienne (activités, plantes, détente, etc.)\n\nLes séances de suivi, facultatives, durent 1 heure et coûtent 65 €.\n\nVous souhaitez en savoir plus ?\n\nLe naturopathe ne se substitue en aucun cas au médecin ; il accompagne en tenant compte des traitements médicaux en cours."
     },
     infant: {
       title: "Massage bébé",
