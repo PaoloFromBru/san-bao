@@ -58,7 +58,8 @@ export const dictionary = {
     infant: {
       title: "Babymassage",
       lead: "Zachte aanraking die rust, slaap en een harmonieuze groei bevordert en de band ouder‑kind versterkt.",
-      cta: "Boek nu"
+      cta: "Boek nu",
+      more: "Omdat het nooit te vroeg (en gelukkig ook niet te laat!) is om voor jezelf te zorgen...\n... kom leren hoe je je baby masseert! Jullie brengen samen een teder moment door terwijl je leert hoe je hem of haar kunt verlichten van alle gebruikelijke kleine ongemakken (kolieken, doorkomende tandjes, slaapproblemen, enz.).\n\nDe volledige opleiding is verdeeld over 5 sessies van 45 minuten. Tijdens deze workshops leer je ontspanningsmassage, therapeutische massages en ook technieken om je kind tijdens zijn of haar hele groei te blijven masseren.\n\nEen origineel idee voor een kraamcadeau, toch?\n\nEn... het is ook mogelijk om deel te nemen aan groepsworkshops of online!\n\nWil je meer weten?\n\nNet als bij andere begeleiding vervangen deze massagetechnieken op geen enkele manier medisch advies."
     },
     faceMassage: {
       title: "Gezichtsmassage",

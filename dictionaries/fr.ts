@@ -57,7 +57,8 @@ export const dictionary = {
     infant: {
       title: "Massage bébé",
       lead: "Un contact doux pour encourager le calme, le sommeil et une croissance harmonieuse, tout en renforçant le lien parent‑enfant.",
-      cta: "Prendre rendez‑vous"
+      cta: "Prendre rendez‑vous",
+      more: "Parce qu'il n'est jamais trop tôt (ni trop tard, heureusement !) pour prendre soin de soi...\n... viens apprendre à masser ton bébé ! Vous passerez ensemble un doux moment en apprenant comment le soulager de tous les petits maux habituels (coliques, poussées dentaires, troubles du sommeil, etc.).\n\nLa formation complète est divisée en 5 séances de 45 minutes. Pendant ces ateliers, tu apprendras le massage relaxant, les massages curatifs, ainsi que les techniques pour continuer à masser ton/ta enfant tout au long de sa croissance.\n\nVoici une idée originale pour un cadeau de naissance, non ?\n\nEt... il est aussi possible de participer à des ateliers collectifs ou en visio !\n\nTu veux en savoir plus ?\n\nComme pour les autres accompagnements, ces techniques de massage ne remplacent en aucun cas l'avis médical."
     },
     faceMassage: {
       title: "Massage du visage",
