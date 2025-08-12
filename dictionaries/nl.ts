@@ -35,6 +35,31 @@ export const dictionary = {
     contactLead:"Vragen? Neem contact op",
     contactBtn:"Contact"
   },
+  about: {
+    content: `Ik heb San Bao opgericht omdat ik geloof in een gepersonaliseerde benadering van jouw welzijn, want ieder mens is uniek. De naam "San Bao" staat voor de "drie schatten": lichaam, energie en geest. Mijn missie is jou te begeleiden op de weg naar harmonie.
+
+Jouw gids naar holistisch welzijn.
+Gepassioneerd door therapeutische aanraking ontwikkel ik sinds 2010 mijn vaardigheden via talrijke opleidingen:
+
+• Shiatsu en Qi Nei Zang:
+   - welzijnsshiatsu (Masunaga) met Philippe Vandenabeele – Shinzuikai gedurende 2 jaar.
+   - therapeutische shiatsu bij Ivan Bel – EBST – (die ik na mijn opleiding ook een jaar assisteerde) en Philippe Banai (Ryoho Shiatsu – www.ryohoshiatsu.com) gedurende 4 jaar.
+   - specialisatie in Qi Nei Zang (of Chi Nei Tsang, "orgaanmassage" – www.idoschool.be)
+
+• Reiki en Touch for Health (Internationaal Reikicentrum en www.ressourcetoit.be).
+
+• Kruidenkunde (bij Anysia Ducastel) en naturopathie (Phytocorsa en E.N.S.A. European Naturopathic School Association)
+
+• Geobiologie: opleiding bij Alain de Luzan – Geobios – in 2019; rekening houden met de omgeving voor volledig welzijn.
+
+• Verschillende stages verdiepen mijn kennis, zoals onder andere: de opleiding Zweedse massage in 2010, de lessen TCM van Raphael Piotto gevolgd in 2015, therapeutische en vloeibare shiatsu met Bernard Bouheret, de opleiding familie Thai Gua Sha bij Gilles Thuriaux in 2019, bio-energie in het centrum Résonnances Vivantes, palpatoire anatomie (EEM), Seiki met Frans Copers (2022) en diverse initiaties in hand- en voetreflexologie.
+
+Word de actor van je eigen evenwicht.
+Deze verschillende werelden stellen mij in staat je een globale en persoonlijke begeleiding te bieden, gebaseerd op lichaamswerk, levenshygiëne en aandachtig luisteren, die verder gaat dan eenmalige behandelingen en je in staat stelt je welzijn in handen te nemen, of het nu is om stress, pijn te verlichten of gewoon om voor jezelf te zorgen. Uiteraard worden alle adviezen gegeven in overleg met je behandelende arts en met respect voor eventuele lopende medische behandelingen. Ik neem in geen geval de plaats van een arts in.
+
+Ik kijk ernaar uit je te ontmoeten!
+Christel`
+  },
   contact: { title:"Contact", name:"Naam", email:"E‑mail", message:"Bericht", send:"Versturen", whatsapp:"Schrijf ons op WhatsApp" },
   services: {
       shiatsu: {

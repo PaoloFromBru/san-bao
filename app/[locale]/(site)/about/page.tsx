@@ -8,7 +8,9 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       <header className="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-3xl font-semibold text-ink">{dict.nav.about}</h1>
-          <p className="mt-4 text-lg text-slate-700">{dict.placeholder}</p>
+          <div className="mt-4 text-lg text-slate-700 whitespace-pre-line">
+            {dict.about.content}
+          </div>
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-soft">
           <img src="/images/contact.webp" alt="" className="w-full h-full object-cover" />
