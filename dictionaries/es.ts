@@ -7,8 +7,9 @@ export const dictionary = {
     contact: { title: "Contacto – San Bao", description: "Reserva una cita o solicita información. Estamos en Bruselas." },
     services: {
         shiatsu: { title: "Shiatsu – San Bao", description: "Digitopresión para armonizar la energía (Qi)." },
-      naturopathy: { title: "Naturopatía – San Bao", description: "Acompañamiento natural personalizado para el bienestar integral." },
-      infant: { title: "Masaje bebé – San Bao", description: "Contacto suave que favorece la calma, el sueño y un crecimiento armonioso." }
+        qiNeiZang: { title: "Qi Nei Zang – San Bao", description: "Masaje abdominal para liberar emociones y aflojar tensiones." },
+        naturopathy: { title: "Naturopatía – San Bao", description: "Acompañamiento natural personalizado para el bienestar integral." },
+        infant: { title: "Masaje bebé – San Bao", description: "Contacto suave que favorece la calma, el sueño y un crecimiento armonioso." }
     }
   },
   nav: {
@@ -42,6 +43,12 @@ export const dictionary = {
         cta: "Reservar ahora",
         more: "El shiatsu... o cómo reequilibrar los movimientos del ki a través del cuerpo.\n\nEl shiatsu (que significa “presión de los dedos”) es un masaje de origen japonés que utiliza los meridianos y los puntos de acupuntura, con el objetivo de mantener o restablecer una circulación fluida y armoniosa de la energía vital (Qi en chino o Ki en japonés). Actúa sobre el cuerpo físico, psíquico y emocional.\n\nSe practica como masaje de relajación, masaje energético o masaje terapéutico para responder a ciertas necesidades particulares (duelo, dismenorrea, problemas digestivos, de sueño, estrés, burn-out, etc.). En el caso del masaje terapéutico, se apoya en los principios de la MTC (medicina tradicional china).\n\nEl shiatsu permite reconectar con el propio cuerpo y también con las emociones, ya que todo está relacionado...\n\nCada sesión es diferente porque se basa en tus necesidades en ese momento preciso. El ritmo, la presión y los meridianos solicitados dependerán únicamente de tus necesidades durante la cita.\n\nEl shiatsu puede realizarse en una sola sesión o practicarse de manera regular (si se trata de una práctica preventiva o de mantenimiento, por ejemplo, ya que se aconseja hacer una sesión en cada cambio de estación según la sensación y la necesidad del receptor). Si el problema es antiguo, pueden ser necesarias varias sesiones.\n\nPor último, la sesión de shiatsu también puede integrarse en un programa más amplio y seguir el trabajo de naturopatía para ayudar al cuerpo a eliminar toxinas, por ejemplo.\n\nEl shiatsu se practica vestido, sobre un futón. Si te resulta imposible acostarte en el suelo, practicaremos el shiatsu en una camilla de masaje o sentado: me adapto a tus posibilidades. El masaje consiste en una serie de presiones sobre puntos energéticos, movilizaciones, estiramientos y apoyos a lo largo de los meridianos. Si es necesario, la moxibustión (calentar un punto de acupuntura con moxa) también podrá practicarse durante la sesión. Para estar cómodo durante la sesión de shiatsu, te recomiendo llevar ropa holgada. La sesión dura 1 hora y cuesta 65 €.\n\nTambién es posible realizar una sesión de descubrimiento; este masaje se practica en una silla y dura solo 20 minutos. ¡Esto permite conocernos! El masaje en silla es perfecto para el entorno empresarial; si deseas ofrecer una pausa de bienestar a tus colaboradores, ¡no dudes!\n\nEn cuanto a las contraindicaciones, el shiatsu no se practica sobre lesiones abiertas, en caso de fiebre, flebitis o patologías cardiovasculares.\n\nEL PRACTICANTE DE SHIATSU O QI NEI ZANG NO SUSTITUYE EN NINGÚN CASO AL MÉDICO. LA SESIÓN DE SHIATSU O DE QI NEI ZANG COMPLEMENTA EL TRATAMIENTO MÉDICO, PERO NO LO REEMPLAZA."
     },
+      qiNeiZang: {
+        title: "Qi Nei Zang",
+        lead: "Masaje abdominal que libera emociones, alivia tensiones y favorece la digestión.",
+        cta: "Reservar ahora",
+        more: "El Qi Nei Zang (o Chi Nei Tsang) es un masaje abdominal que permite liberar las emociones y aflojar las tensiones.\nActuando sobre los intestinos, proporciona una relajación profunda, reduce el estrés y la ansiedad, actúa sobre dolores físicos (como lumbalgias) y sobre trastornos del aparato digestivo y reproductor. Gracias al masaje de los órganos internos, el Qi Nei Zang también ayuda a estimular el sistema inmunitario de manera preventiva e indirecta.\n\nLa sesión de Qi Nei Zang dura 1 hora y cuesta 65€.",
+      },
     naturopathy: {
       title: "Naturopatía",
       lead: "Acompañamiento natural personalizado: alimentación, estilo de vida y técnicas suaves para el bienestar integral.",

@@ -7,6 +7,7 @@ export const dictionary = {
     contact: { title: "Contact – San Bao", description: "Book an appointment or ask for information. We are in Brussels." },
     services: {
       shiatsu: { title: "Shiatsu – San Bao", description: "Acupressure to harmonise energy (Qi)." },
+      qiNeiZang: { title: "Qi Nei Zang – San Bao", description: "Abdominal massage to release emotions and ease tensions." },
       naturopathy: { title: "Naturopathy – San Bao", description: "Personalised natural guidance for overall wellbeing." },
       infant: { title: "Infant massage – San Bao", description: "Gentle touch that supports calm, sleep and harmonious growth." }
     }
@@ -42,6 +43,12 @@ export const dictionary = {
         cta: "Book now",
         more: "Shiatsu… or how to rebalance the movements of Ki throughout the body.\n\nShiatsu (which means “finger pressure”) is a massage of Japanese origin that uses meridians and acupuncture points, aiming to maintain or restore a smooth and harmonious circulation of vital energy (Qi in Chinese or Ki in Japanese). It therefore acts on the physical, mental, and emotional body.\n\nIt is practiced as a relaxation massage, an energetic massage, or a therapeutic massage to meet specific needs (bereavement, dysmenorrhea, digestive problems, sleep issues, stress, burn-out, etc.). In the case of therapeutic massage, it relies on the principles of TCM (traditional Chinese medicine).\n\nShiatsu allows you to reconnect with your own body and also with your emotions, as everything is linked…\n\nEach session is different because it is based on your needs at that precise moment. The rhythm, pressure, and meridians engaged will depend solely on your needs during the appointment.\n\nShiatsu can be performed in a single session or regularly (as a preventive or maintenance practice, for example, since it is recommended to have a session at each change of season according to the recipient’s feelings and needs). If the issue is long-standing, several sessions may be necessary.\n\nFinally, the shiatsu session can also be part of a broader program and accompany naturopathy follow-ups to help the body eliminate toxins, for example.\n\nShiatsu is practiced clothed, on a futon. If you cannot lie on the floor, we will practice shiatsu on a massage table or seated—I adapt to your possibilities. The massage consists of a series of pressures on energy points, mobilizations, stretches, and applications along the meridians. If necessary, moxibustion (warming an acupuncture point with moxa) may also be used during the session. To be comfortable during the shiatsu session, I advise wearing loose-fitting clothes. The session lasts 1 hour and costs €65.\n\nIt is also possible to have a discovery session; this massage is performed on a chair and lasts only 20 minutes. This allows us to get to know each other! Chair massage is perfect for the workplace; if you want to offer a wellness break to your employees, don’t hesitate!\n\nRegarding contraindications, shiatsu is not performed on open wounds, in case of fever, phlebitis, or cardiovascular diseases.\n\nTHE SHIATSU OR QI NEI ZANG PRACTITIONER IN NO CASE REPLACES A DOCTOR. A SHIATSU OR QI NEI ZANG SESSION COMPLEMENTS MEDICAL TREATMENT BUT DOES NOT REPLACE IT."
       },
+    qiNeiZang: {
+      title: "Qi Nei Zang",
+      lead: "Abdominal massage that releases emotions, eases tension and supports digestion.",
+      cta: "Book now",
+      more: "Qi Nei Zang (or Chi Nei Tsang) is an abdominal massage that frees emotions and loosens tensions.\\nActing on the intestines, it brings deep relaxation, reduces stress and anxiety, eases physical pain (such as lower back pain) and digestive and reproductive disorders. Thanks to the massage of the internal organs, Qi Nei Zang also helps stimulate the immune system preventively and indirectly.\\n\\nA Qi Nei Zang session lasts 1 hour and costs €65."
+    },
     naturopathy: {
       title: "Naturopathy",
       lead: "Personalised natural guidance: nutrition, lifestyle and gentle techniques for overall wellbeing.",
