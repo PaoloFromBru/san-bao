@@ -26,22 +26,46 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 items-start">
-        <form className="space-y-4">
-          <input className="w-full border rounded-xl2 p-3" placeholder={dict.contact.name} />
-          <input className="w-full border rounded-xl2 p-3" placeholder={dict.contact.email} type="email" />
-          <textarea className="w-full border rounded-xl2 p-3 h-40" placeholder={dict.contact.message} />
-          <button className="px-5 py-3 rounded-xl2 bg-teal text-white hover:opacity-90">{dict.contact.send}</button>
+        <form
+          className="space-y-4"
+          action="mailto:sanbao_shiatsu@hotmail.com"
+          method="POST"
+          encType="text/plain"
+        >
+          <input
+            className="w-full border rounded-xl2 p-3"
+            placeholder={dict.contact.name}
+            name="name"
+            required
+          />
+          <input
+            className="w-full border rounded-xl2 p-3"
+            placeholder={dict.contact.email}
+            type="email"
+            name="email"
+            required
+          />
+          <textarea
+            className="w-full border rounded-xl2 p-3 h-40"
+            placeholder={dict.contact.message}
+            name="message"
+            required
+          />
+          <button
+            type="submit"
+            className="px-5 py-3 rounded-xl2 bg-teal text-white hover:opacity-90"
+          >
+            {dict.contact.send}
+          </button>
         </form>
 
-        <div className="rounded-2xl overflow-hidden border shadow-soft h-[320px]">
-          <iframe title="Map" className="w-full h-full" loading="lazy" referrerPolicy="no-referrer-when-downgrade" src="https://maps.google.com" />
+        <div className="rounded-2xl overflow-hidden border shadow-soft h-[320px] flex items-center justify-center">
+          <img
+            src="/images/Logo-colours.png"
+            alt="San Bao logo"
+            className="w-full h-full object-contain"
+          />
         </div>
-      </div>
-
-      <div className="mt-10">
-        <a className="inline-flex items-center gap-3 border rounded-full px-5 py-3 text-ink hover:border-teal" href="https://wa.me/XXXXXXXXXXX" target="_blank" rel="noreferrer">
-          <span>🟢</span> {dict.contact.whatsapp}
-        </a>
       </div>
     </div>
   );
