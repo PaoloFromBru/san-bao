@@ -50,7 +50,8 @@ export const dictionary = {
     infant: {
       title: "Infant massage",
       lead: "A gentle touch that fosters calm, sleep and harmonious growth while strengthening the parent‑child bond.",
-      cta: "Book now"
+      cta: "Book now",
+      more: "Because it's never too early (nor too late, fortunately!) to take care of yourself...\n... come and learn how to massage your baby! You will spend a sweet moment together learning how to relieve them from all the usual little troubles (colic, teething, sleep disturbances, etc.).\n\nThe full training is divided into 5 sessions of 45 minutes. During these workshops you will learn relaxing massage, therapeutic massages, and also the techniques to keep massaging your child throughout their growth.\n\nIsn't it an original idea for a birth gift?\n\nAnd... it is also possible to take part in group or online workshops!\n\nDo you want to know more?\n\nAs with the other forms of support, these massage techniques do not replace medical advice."
     },
     faceMassage: {
       title: "Face massage",

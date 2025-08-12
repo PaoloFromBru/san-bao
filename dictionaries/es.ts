@@ -50,7 +50,8 @@ export const dictionary = {
     infant: {
       title: "Masaje bebé",
       lead: "Un contacto suave que fomenta la calma, el sueño y un crecimiento armonioso, fortaleciendo el vínculo entre padres e hijos.",
-      cta: "Reservar ahora"
+      cta: "Reservar ahora",
+      more: "Porque nunca es demasiado pronto (ni demasiado tarde, por fortuna) para cuidarte...\n... ¡ven a aprender a masajear a tu bebé! Pasaréis juntos un momento dulce mientras aprendes cómo aliviarlo de todas las pequeñas molestias habituales (cólicos, dentición, trastornos del sueño, etc.).\n\nLa formación completa se divide en 5 sesiones de 45 minutos. Durante estos talleres aprenderás el masaje relajante, los masajes curativos y también las técnicas para seguir masajeando a tu hijo/a durante todo su crecimiento.\n\n¿Verdad que es una idea original para un regalo de nacimiento?\n\nY... ¡también es posible participar en talleres colectivos o en línea!\n\n¿Quieres saber más?\n\nComo en los demás acompañamientos, estas técnicas de masaje no sustituyen de ninguna manera el consejo médico."
     },
     faceMassage: {
       title: "Masaje facial",

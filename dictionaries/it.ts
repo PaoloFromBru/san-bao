@@ -50,7 +50,8 @@ export const dictionary = {
     infant: {
       title: "Massaggio neonato",
       lead: "Contatto dolce per favorire calma, sonno e crescita armoniosa del bambino e rafforzare il legame genitore‑bimbo.",
-      cta: "Prenota ora"
+      cta: "Prenota ora",
+      more: "Perché non è mai troppo presto (né troppo tardi, per fortuna!) per prendersi cura di sé...\n... vieni ad imparare a massaggiare il tuo bambino/bambina! Trascorrerete insieme un dolce momento imparando come alleviarlo da tutti i soliti piccoli disturbi (coliche, dentizione, disturbi del sonno, ecc.).\n\nLa formazione completa è suddivisa in 5 sessioni di 45 minuti. Durante questi workshop imparerai il massaggio rilassante, i massaggi curativi, ed anche le tecniche per continuare a massaggiare tuo/a figlio/a durante tutta la sua crescita.\n\nEcco un'idea originale per un regalo di nascita, vero?\n\nE... è anche possibile partecipare a laboratori collettivi o visio!\n\nVuoi sapere di più?\n\nCome per gli altri accompagnamenti, queste tecniche di massaggio non sostituiscono in alcun modo la consulenza medica."
     },
     faceMassage: {
       title: "Massaggio facciale",
