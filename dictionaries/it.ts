@@ -71,5 +71,5 @@ export const dictionary = {
     more: "Più",
     close: "Chiudi",
     placeholder: "Contenuto in arrivo.",
-  disclaimer: "IN NESSUN CASO QUESTO ACCOMPAGNAMENTO SOSTITUISCE UN PARERE / SEGUITO MEDICO."
+  disclaimer: "Il praticante di Shiatsu, Qi Nei Zang o Naturopatia non sostituisce il medico. Le sedute proposte sono accompagnamenti complementari ma non sostituiscono in alcun caso un parere o un follow-up medico. I consigli devono sempre essere convalidati dal proprio medico curante."
 };

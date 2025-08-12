@@ -70,5 +70,5 @@ export const dictionary = {
     more: "Plus",
     close: "Fermer",
     placeholder: "Contenu à venir.",
-  disclaimer: "EN AUCUN CAS, CET ACCOMPAGNEMENT NE REMPLACE UN AVIS / SUIVI MEDICAL"
+  disclaimer: "Le praticien de Shiatsu, de Qi Nei Zang ou de Naturopathie ne se substitute pas au médecin. Les séances proposées sont des accompagnements complémentaires mais ne remplacent en aucun cas un avis ou un suivi médical. Les conseils sont toujours à valider par votre médecin traitant."
 };
