@@ -36,7 +36,12 @@ export const dictionary = {
     contactBtn:"Contact"
   },
   about: {
-    content: `Ik heb San Bao opgericht omdat ik geloof in een gepersonaliseerde benadering van jouw welzijn, want ieder mens is uniek. De naam "San Bao" staat voor de "drie schatten": lichaam, energie en geest. Mijn missie is jou te begeleiden op de weg naar harmonie.
+    content: `San Bao is gebaseerd op een persoonlijke benadering van welzijn, geïnspireerd door de "drie schatten": lichaam, energie en geest. Mijn doel is je met aandacht en maatwerk naar harmonie te begeleiden.
+
+Sinds 2010 verdiep ik me in uiteenlopende therapeutische disciplines: Shiatsu en Qi Nei Zang, Reiki en Touch for Health, kruidengeneeskunde en naturopathie, geobiologie en talloze workshops die mijn begrip van het lichaam en zijn energieën vergroten.
+
+Deze ervaringen stellen mij in staat een holistische begeleiding te bieden die lichaamswerk, leefstijladvies en een luisterend oor combineert, zodat jij de regisseur wordt van je eigen balans. Ik kijk ernaar uit je te ontmoeten.`,
+    more: `Ik heb San Bao opgericht omdat ik geloof in een gepersonaliseerde benadering van jouw welzijn, want ieder mens is uniek. De naam "San Bao" staat voor de "drie schatten": lichaam, energie en geest. Mijn missie is jou te begeleiden op de weg naar harmonie.
 
 Jouw gids naar holistisch welzijn.
 Gepassioneerd door therapeutische aanraking ontwikkel ik sinds 2010 mijn vaardigheden via talrijke opleidingen:

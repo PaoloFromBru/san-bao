@@ -35,7 +35,12 @@ export const dictionary = {
     contactBtn:"Contacts"
   },
   about: {
-    content: `J'ai fondé San Bao, parce que je crois en une approche personnalisée pour votre bien-être, car chaque individu est unique. Le nom "San Bao" symbolise les "trois trésors" : le corps, l'énergie et l'esprit. Ma mission est de vous accompagner sur le chemin de l'harmonie.
+    content: `San Bao repose sur une approche personnalisée du bien‑être, inspirée des « trois trésors » : le corps, l'énergie et l'esprit. Mon objectif est de vous accompagner vers l'harmonie avec une écoute attentive et un accompagnement sur mesure.
+
+Depuis 2010, j'explore de nombreuses disciplines thérapeutiques : shiatsu et Qi Nei Zang, Reiki et Touch for Health, herboristerie et naturopathie, géobiologie et divers ateliers qui approfondissent ma compréhension du corps et de ses énergies.
+
+Ces expériences me permettent de proposer un accompagnement holistique mêlant travail corporel, conseils d'hygiène de vie et écoute attentive, afin que vous deveniez acteur de votre propre équilibre. Au plaisir de vous rencontrer !`,
+    more: `J'ai fondé San Bao, parce que je crois en une approche personnalisée pour votre bien-être, car chaque individu est unique. Le nom "San Bao" symbolise les "trois trésors" : le corps, l'énergie et l'esprit. Ma mission est de vous accompagner sur le chemin de l'harmonie.
 
 Votre guide vers le bien-être holistique.
 Passionnée par le toucher thérapeutique, je développe mes compétences à travers de multiples formations depuis 2010:
