@@ -59,11 +59,11 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           </button>
         </form>
 
-        <div className="rounded-2xl overflow-hidden border shadow-soft h-[320px] flex items-center justify-center">
+        <div className="rounded-2xl border shadow-soft h-[320px] flex items-center justify-center bg-[#ecedee]">
           <img
-            src="/images/Logo-colours.png"
+            src="/images/Logo-colours_.png"
             alt="San Bao logo"
-            className="w-full h-full object-contain"
+            className="w-48 h-48 object-contain rounded-full"
           />
         </div>
       </div>
