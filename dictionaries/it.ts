@@ -45,7 +45,8 @@ export const dictionary = {
     naturopathy: {
       title: "Naturopatia",
       lead: "Consulenze e percorsi naturali personalizzati: alimentazione, stile di vita e tecniche dolci per il benessere globale.",
-      cta: "Prenota ora"
+      cta: "Prenota ora",
+      more: "\"Il microbo non è niente, il terreno biologico è tutto\".\nIl naturopata è soprattutto una guida che, sulla base della valutazione della vitalità effettuata, propone un programma personalizzato di igiene vitale al fine di potenziare le capacità di autoguarigione della persona, disintossicarsi e colmare eventuali carenze.\n\nIl programma di igiene vitale che stabiliremo insieme terrà conto del tuo ambiente familiare, sociale e professionale; delle tue abitudini alimentari e sportive; del tuo stato di stress, della qualità del tuo sonno e del tuo appetito, ecc.\n\nIl programma consiglia l'utilizzo delle piante, comprende cure disintossicanti e rimineralizzanti ma propone anche massaggi (shiatsu/Qi Nei Zang) o tecniche idroterapiche. La prima sessione dura 1h30 e costa 80€, l'obiettivo di questa sessione è capire il tuo ambiente, le tue abitudini, il tuo stile di vita e le tue aspettative. Al termine di questa valutazione della vitalità, ti preparo un protocollo personalizzato che si sviluppa su più settimane. Questo protocollo fornirà consigli relativi al cibo e ad altri aspetti della vita quotidiana (attività, piante, relax, ecc.)\n\nLe sessioni di follow-up, facoltative, durano 1 ora e costano € 65.\n\nVuoi saperne di più?\n\nIl naturopata non si sostituisce in alcun modo al medico, lo accompagna tenendo conto delle cure mediche in atto."
     },
     infant: {
       title: "Massaggio neonato",

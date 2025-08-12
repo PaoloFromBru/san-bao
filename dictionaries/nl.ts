@@ -45,7 +45,8 @@ export const dictionary = {
     naturopathy: {
       title: "Naturopathie",
       lead: "Persoonlijk natuurlijk advies: voeding, levensstijl en zachte technieken voor algemeen welzijn.",
-      cta: "Boek nu"
+      cta: "Boek nu",
+      more: "\"Het microbe is niets, het biologische terrein is alles\".\nDe naturopaat is vooral een gids die, op basis van de uitgevoerde vitaliteitsbeoordeling, een gepersonaliseerd programma van vitale hygiëne voorstelt om de zelfgenezende vermogens van het lichaam te versterken, te ontgiften en eventuele tekorten aan te vullen.\n\nHet vitale hygiëneprogramma dat we samen zullen opstellen houdt rekening met je familiale, sociale en professionele omgeving; je eet- en sportgewoonten; je stressniveau, de kwaliteit van je slaap en je eetlust, enz.\n\nHet programma raadt het gebruik van planten aan, omvat ontgiftende en remineraliserende kuren maar stelt ook massages (shiatsu/Qi Nei Zang) of hydrotherapische technieken voor. De eerste sessie duurt 1u30 en kost €80. Het doel van deze sessie is je omgeving, je gewoonten, je levensstijl en je verwachtingen te begrijpen. Na deze vitaliteitsbeoordeling stel ik een gepersonaliseerd protocol op dat zich over meerdere weken uitstrekt. Dit protocol geeft advies over voeding en andere aspecten van het dagelijks leven (activiteiten, planten, ontspanning, enz.)\n\nVervolgsessies, optioneel, duren 1 uur en kosten €65.\n\nWil je meer weten?\n\nDe naturopaat vervangt de arts in geen geval; hij begeleidt je met inachtneming van de lopende medische behandelingen."
     },
     infant: {
       title: "Babymassage",

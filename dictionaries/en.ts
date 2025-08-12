@@ -45,7 +45,8 @@ export const dictionary = {
     naturopathy: {
       title: "Naturopathy",
       lead: "Personalised natural guidance: nutrition, lifestyle and gentle techniques for overall wellbeing.",
-      cta: "Book now"
+      cta: "Book now",
+      more: "\"The microbe is nothing, the biological terrain is everything\".\nThe naturopath is above all a guide who, based on the vitality assessment carried out, proposes a personalised programme of vital hygiene to strengthen the body’s self-healing capacities, detoxify and make up for any deficiencies.\n\nThe vital hygiene programme we will establish together will take into account your family, social and professional environment; your eating and sporting habits; your stress level, the quality of your sleep and your appetite, etc.\n\nThe programme recommends the use of plants, includes detoxifying and remineralising cures but also offers massages (shiatsu/Qi Nei Zang) or hydrotherapy techniques. The first session lasts 1h30 and costs €80, and its aim is to understand your environment, your habits, your lifestyle and your expectations. At the end of this vitality assessment, I prepare a personalised protocol that runs over several weeks. This protocol will provide advice on food and other aspects of daily life (activities, plants, relaxation, etc.)\n\nFollow-up sessions, optional, last 1 hour and cost €65.\n\nWant to know more?\n\nThe naturopath in no way replaces the doctor but accompanies you while taking ongoing medical treatments into account."
     },
     infant: {
       title: "Infant massage",
