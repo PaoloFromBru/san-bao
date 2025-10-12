@@ -34,7 +34,7 @@ export default async function QiNeiZangPage({ params }: { params: Promise<{ loca
             </Link>
           </div>
         </div>
-        <div className="rounded-2xl overflow-hidden border shadow-soft relative aspect-square">
+        <div className="rounded-2xl overflow-hidden border shadow-soft relative w-full aspect-[4/3]">
           <Image src="/images/QiNeiZang.webp" alt="" fill className="object-cover" sizes="(min-width: 768px) 50vw, 100vw" />
         </div>
       </header>
