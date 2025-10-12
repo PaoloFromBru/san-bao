@@ -38,6 +38,15 @@ export default async function InfantPage({ params }: { params: Promise<{ locale:
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-soft relative w-full aspect-[4/3]">
           <Image src="/images/MassageBebe.webp" alt="" fill className="object-cover" sizes="(min-width: 768px) 50vw, 100vw" />
+          <div className="pointer-events-none absolute right-4 bottom-4 md:right-6 md:bottom-6 z-10 hidden md:block">
+            <Image
+              src="/images/Logo-colours_.webp"
+              alt="San Bao"
+              width={256}
+              height={256}
+              className="h-20 w-20 md:h-24 md:w-24 lg:h-28 lg:w-28 rounded-full p-1 ring-2 ring-gold shadow-soft"
+            />
+          </div>
         </div>
       </header>
     </article>
