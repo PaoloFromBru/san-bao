@@ -1,6 +1,7 @@
 
 import { getDictionary, type Locale } from "@/dictionaries";
 import SetmoreButton from "@/components/SetmoreButton";
+import Image from "next/image";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
@@ -60,9 +61,11 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         </form>
 
         <div className="rounded-2xl border shadow-soft h-[320px] flex items-center justify-center bg-[#ecedee]">
-          <img
-            src="/images/Logo-colours_.png"
+          <Image
+            src="/images/Logo-colours_.webp"
             alt="San Bao logo"
+            width={1024}
+            height={1024}
             className="w-48 h-48 object-contain rounded-full"
           />
         </div>

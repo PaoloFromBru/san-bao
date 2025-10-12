@@ -1,6 +1,7 @@
 import { getDictionary, type Locale } from "@/dictionaries";
 import SetmoreButton from "@/components/SetmoreButton";
 import Link from "next/link";
+import Image from "next/image";
 
 export default async function FaceMassagePage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
@@ -22,11 +23,10 @@ export default async function FaceMassagePage({ params }: { params: Promise<{ lo
             </Link>
           </div>
         </div>
-        <div className="rounded-2xl overflow-hidden border shadow-soft">
-          <img src="/images/FaceMassage.png" alt="" className="w-full h-full object-cover" />
+        <div className="rounded-2xl overflow-hidden border shadow-soft relative">
+          <Image src="/images/FaceMassage.webp" alt="" fill className="object-cover" sizes="(min-width: 768px) 50vw, 100vw" />
         </div>
       </header>
     </article>
   );
 }
-
