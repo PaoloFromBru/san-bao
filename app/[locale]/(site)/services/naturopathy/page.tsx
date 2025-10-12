@@ -39,7 +39,13 @@ export default async function NaturopathyPage({ params }: { params: Promise<{ lo
         <div className="rounded-2xl overflow-hidden border shadow-soft relative w-full aspect-[4/3]">
           <Image src="/images/naturopathy.webp" alt="" fill className="object-cover" sizes="(min-width: 768px) 50vw, 100vw" />
           <div className="pointer-events-none absolute right-4 bottom-4 md:right-6 md:bottom-6 z-10 hidden md:block">
-            <Image src="/logo-gold.svg" alt="" width={96} height={96} className="h-14 w-14 md:h-20 md:w-20 rounded-full bg-white/80 p-2 ring-1 ring-gold shadow-soft backdrop-blur-sm" />
+            <Image
+              src="/images/Logo-colours_.webp"
+              alt="San Bao"
+              width={256}
+              height={256}
+              className="h-20 w-20 md:h-24 md:w-24 lg:h-28 lg:w-28 rounded-full p-1 ring-2 ring-gold shadow-soft"
+            />
           </div>
         </div>
       </header>
