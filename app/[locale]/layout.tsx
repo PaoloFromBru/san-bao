@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: dict.meta.siteName,
     description: dict.meta.siteDescription,
     metadataBase,
+    verification: { google: "FgEGAiGw5ps2FVfnCTDB_wvFpPUKdn6weYfGXt7hoeA" },
     openGraph: { title: dict.meta.siteName, description: dict.meta.siteDescription },
     twitter: { card: "summary_large_image", title: dict.meta.siteName, description: dict.meta.siteDescription }
   };
