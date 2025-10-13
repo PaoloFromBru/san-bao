@@ -3,6 +3,7 @@ export const dictionary = {
   meta: {
     siteName: "San Bao – Shiatsu & Naturopatia",
     siteDescription: "Benessere naturale a Bruxelles. Shiatsu, Qi Nei Zang, Naturopatia, Massaggio bimbi.",
+    about: { title: "Chi sono – San Bao", description: "Conosci l'approccio personalizzato di San Bao: corpo, energia e spirito per il tuo benessere a Bruxelles." },
     home: { title: "San Bao – Shiatsu & Naturopatia", description: "Ritrova equilibrio e respiro con trattamenti manuali e percorsi naturali." },
     contact: { title: "Contatti – San Bao", description: "Prenota un appuntamento o chiedi informazioni. Siamo a Bruxelles." },
     services: {

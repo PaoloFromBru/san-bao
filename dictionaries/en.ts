@@ -3,6 +3,7 @@ export const dictionary = {
   meta: {
     siteName: "San Bao – Shiatsu & Naturopathy",
     siteDescription: "Natural wellbeing in Brussels. Shiatsu, Qi Nei Zang, Naturopathy, Infant massage.",
+    about: { title: "About me – San Bao", description: "Discover San Bao's personalised approach: body, energy and spirit for your wellbeing in Brussels." },
     home: { title: "San Bao – Shiatsu & Naturopathy", description: "Restore balance and breath with manual treatments and natural approaches." },
     contact: { title: "Contact – San Bao", description: "Book an appointment or ask for information. We are in Brussels." },
     services: {
