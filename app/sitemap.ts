@@ -2,7 +2,8 @@ import type { MetadataRoute } from "next";
 import { locales } from "@/dictionaries";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const raw = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = raw ? (raw.match(/^https?:\/\//i) ? raw : `https://${raw}`) : "http://localhost:3000";
 
   const basePaths = [
     "",
@@ -42,4 +43,3 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return entries;
 }
-

@@ -14,10 +14,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale as any);
+  const raw = process.env.NEXT_PUBLIC_SITE_URL;
+  const normalized = raw ? (raw.match(/^https?:\/\//i) ? raw : `https://${raw}`) : "http://localhost:3000";
+  let metadataBase: URL | undefined;
+  try {
+    metadataBase = new URL(normalized);
+  } catch {
+    metadataBase = undefined;
+  }
   return {
     title: dict.meta.siteName,
     description: dict.meta.siteDescription,
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+    metadataBase,
     openGraph: { title: dict.meta.siteName, description: dict.meta.siteDescription },
     twitter: { card: "summary_large_image", title: dict.meta.siteName, description: dict.meta.siteDescription }
   };

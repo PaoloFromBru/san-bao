@@ -1,15 +1,21 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { getDictionary, type Locale } from "@/dictionaries";
+import { getDictionary, type Locale, locales } from "@/dictionaries";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const raw = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = raw ? (raw.match(/^https?:\/\//i) ? raw : `https://${raw}`) : "http://localhost:3000";
+  const path = `/${locale}`;
+  const languages = Object.fromEntries(locales.map((l) => [l, `/${l}`]));
+  (languages as any)["x-default"] = "/it";
   return {
     title: dict.meta.home.title,
     description: dict.meta.home.description,
-    openGraph: { title: dict.meta.home.title, description: dict.meta.home.description },
+    alternates: { canonical: path, languages: languages as Record<string, string> },
+    openGraph: { title: dict.meta.home.title, description: dict.meta.home.description, url: `${siteUrl}${path}` },
     twitter: { card: "summary_large_image", title: dict.meta.home.title, description: dict.meta.home.description }
   };
 }

@@ -1,7 +1,27 @@
-import { getDictionary, type Locale } from "@/dictionaries";
+import { getDictionary, type Locale, locales } from "@/dictionaries";
 import SetmoreButton from "@/components/SetmoreButton";
 import Link from "next/link";
 import Image from "next/image";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
+  const t = dict.services.faceMassage;
+  const raw = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = raw ? (raw.match(/^https?:\/\//i) ? raw : `https://${raw}`) : "http://localhost:3000";
+  const path = `/${locale}/services/face-massage`;
+  const languages = Object.fromEntries(locales.map((l) => [l, `/${l}/services/face-massage`]));
+  (languages as any)["x-default"] = "/it/services/face-massage";
+  const title = `${t.title} – ${dict.meta.siteName}`;
+  const description = t.lead as string;
+  return {
+    title,
+    description,
+    alternates: { canonical: path, languages: languages as Record<string, string> },
+    openGraph: { title, description, url: `${siteUrl}${path}` },
+    twitter: { card: "summary_large_image", title, description },
+  };
+}
 
 export default async function FaceMassagePage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;

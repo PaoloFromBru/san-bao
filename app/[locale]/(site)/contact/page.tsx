@@ -1,15 +1,21 @@
 
-import { getDictionary, type Locale } from "@/dictionaries";
+import { getDictionary, type Locale, locales } from "@/dictionaries";
 import SetmoreButton from "@/components/SetmoreButton";
 import Image from "next/image";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const raw = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = raw ? (raw.match(/^https?:\/\//i) ? raw : `https://${raw}`) : "http://localhost:3000";
+  const path = `/${locale}/contact`;
+  const languages = Object.fromEntries(locales.map((l) => [l, `/${l}/contact`]));
+  (languages as any)["x-default"] = "/it/contact";
   return {
     title: dict.meta.contact.title,
     description: dict.meta.contact.description,
-    openGraph: { title: dict.meta.contact.title, description: dict.meta.contact.description },
+    alternates: { canonical: path, languages: languages as Record<string, string> },
+    openGraph: { title: dict.meta.contact.title, description: dict.meta.contact.description, url: `${siteUrl}${path}` },
     twitter: { card: "summary_large_image", title: dict.meta.contact.title, description: dict.meta.contact.description }
   };
 }

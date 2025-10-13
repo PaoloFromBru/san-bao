@@ -1,4 +1,4 @@
-import { getDictionary, type Locale } from "@/dictionaries";
+import { getDictionary, type Locale, locales } from "@/dictionaries";
 import SetmoreButton from "@/components/SetmoreButton";
 import Link from "next/link";
 import Image from "next/image";
@@ -6,10 +6,16 @@ import Image from "next/image";
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const raw = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = raw ? (raw.match(/^https?:\/\//i) ? raw : `https://${raw}`) : "http://localhost:3000";
+  const path = `/${locale}/services/qi-nei-zang`;
+  const languages = Object.fromEntries(locales.map((l) => [l, `/${l}/services/qi-nei-zang`]));
+  (languages as any)["x-default"] = "/it/services/qi-nei-zang";
   return {
     title: dict.meta.services.qiNeiZang.title,
     description: dict.meta.services.qiNeiZang.description,
-    openGraph: { title: dict.meta.services.qiNeiZang.title, description: dict.meta.services.qiNeiZang.description },
+    alternates: { canonical: path, languages: languages as Record<string, string> },
+    openGraph: { title: dict.meta.services.qiNeiZang.title, description: dict.meta.services.qiNeiZang.description, url: `${siteUrl}${path}` },
     twitter: { card: "summary_large_image", title: dict.meta.services.qiNeiZang.title, description: dict.meta.services.qiNeiZang.description }
   };
 }

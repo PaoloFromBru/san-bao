@@ -12,7 +12,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     dict.meta.about?.description ??
     "Pagina di presentazione: approccio personalizzato al benessere ispirato ai tre tesori corpo, energia e spirito.";
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const raw = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = raw ? (raw.match(/^https?:\/\//i) ? raw : `https://${raw}`) : "http://localhost:3000";
   const path = `/${locale}/about`;
 
   const languages = Object.fromEntries(locales.map((l) => [l, `/${l}/about`]));
