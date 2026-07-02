@@ -67,7 +67,27 @@ These different universes allow me to offer you comprehensive and personalised s
 Looking forward to meeting you!
 Christel`
   },
-  contact: { title:"Contact", name:"Name", email:"Email", message:"Message", send:"Send", whatsapp:"Message us on WhatsApp" },
+  contact: { title:"Contact", name:"Name", email:"Email", message:"Message", send:"Send", whatsapp:"Message us on WhatsApp", sending:"Sending...", successMessage:"Message sent. We'll get back to you soon!", errorMessage:"Something went wrong. Please try again or email us directly." },
+  booking: {
+    dateLabel: "Date",
+    timeLabel: "Time",
+    loadingSlots: "Loading available times...",
+    noSlots: "No time slots available for this date.",
+    namePlaceholder: "Full name",
+    emailPlaceholder: "Email",
+    phonePlaceholder: "Phone (optional)",
+    notesPlaceholder: "Notes (optional)",
+    confirmButton: "Confirm booking",
+    submitting: "Booking...",
+    successMessage: "Booking confirmed for {date} at {time}. See you soon!",
+    genericError: "Something went wrong while booking.",
+    slotTakenError: "This time slot is no longer available.",
+    emailSubject: "Booking confirmed — {service}",
+    emailHeading: "Booking confirmed",
+    emailGreeting: "Hi {name},",
+    emailBody: "your booking for {service} is confirmed for {date} at {time}.",
+    emailFooter: "If you need to change or cancel this appointment, just reply to this email."
+  },
   services: {
       shiatsu: {
         title: "Shiatsu",

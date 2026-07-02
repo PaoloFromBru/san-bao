@@ -65,7 +65,27 @@ Deze verschillende werelden stellen mij in staat je een globale en persoonlijke 
 Ik kijk ernaar uit je te ontmoeten!
 Christel`
   },
-  contact: { title:"Contact", name:"Naam", email:"E‑mail", message:"Bericht", send:"Versturen", whatsapp:"Schrijf ons op WhatsApp" },
+  contact: { title:"Contact", name:"Naam", email:"E‑mail", message:"Bericht", send:"Versturen", whatsapp:"Schrijf ons op WhatsApp", sending:"Versturen...", successMessage:"Bericht verzonden. We nemen snel contact met u op!", errorMessage:"Er is iets misgegaan. Probeer het opnieuw of mail ons rechtstreeks." },
+  booking: {
+    dateLabel: "Datum",
+    timeLabel: "Tijdstip",
+    loadingSlots: "Beschikbare tijden laden...",
+    noSlots: "Geen beschikbare tijden op deze datum.",
+    namePlaceholder: "Volledige naam",
+    emailPlaceholder: "E‑mail",
+    phonePlaceholder: "Telefoon (optioneel)",
+    notesPlaceholder: "Opmerkingen (optioneel)",
+    confirmButton: "Afspraak bevestigen",
+    submitting: "Bezig met boeken...",
+    successMessage: "Afspraak bevestigd voor {date} om {time}. Tot snel!",
+    genericError: "Er is iets misgegaan bij het boeken.",
+    slotTakenError: "Dit tijdstip is niet meer beschikbaar.",
+    emailSubject: "Afspraak bevestigd — {service}",
+    emailHeading: "Afspraak bevestigd",
+    emailGreeting: "Hallo {name},",
+    emailBody: "je afspraak voor {service} is bevestigd op {date} om {time}.",
+    emailFooter: "Wil je deze afspraak wijzigen of annuleren? Antwoord gewoon op deze email."
+  },
   services: {
       shiatsu: {
         title: "Shiatsu",

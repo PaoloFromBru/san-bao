@@ -64,7 +64,27 @@ Diventa protagonista del tuo equilibrio : questi diversi universi mi permettono 
 Piacere di incontrarti!
 Christel`
   },
-  contact: { title:"Contatti", name:"Nome", email:"Email", message:"Messaggio", send:"Invia", whatsapp:"Scrivici su WhatsApp" },
+  contact: { title:"Contatti", name:"Nome", email:"Email", message:"Messaggio", send:"Invia", whatsapp:"Scrivici su WhatsApp", sending:"Invio...", successMessage:"Messaggio inviato. Ti risponderemo al più presto!", errorMessage:"Errore durante l'invio. Riprova o scrivici direttamente." },
+  booking: {
+    dateLabel: "Data",
+    timeLabel: "Orario",
+    loadingSlots: "Carico gli orari...",
+    noSlots: "Nessun orario disponibile per questa data.",
+    namePlaceholder: "Nome e cognome",
+    emailPlaceholder: "Email",
+    phonePlaceholder: "Telefono (facoltativo)",
+    notesPlaceholder: "Note (facoltativo)",
+    confirmButton: "Conferma prenotazione",
+    submitting: "Prenoto...",
+    successMessage: "Prenotazione confermata per il {date} alle {time}. A presto!",
+    genericError: "Errore durante la prenotazione.",
+    slotTakenError: "Questo orario non è più disponibile.",
+    emailSubject: "Prenotazione confermata — {service}",
+    emailHeading: "Prenotazione confermata",
+    emailGreeting: "Ciao {name},",
+    emailBody: "la tua prenotazione per {service} è confermata per {date} alle {time}.",
+    emailFooter: "Se hai bisogno di modificare o annullare l'appuntamento, rispondi pure a questa email."
+  },
   services: {
       shiatsu: {
         title: "Shiatsu",

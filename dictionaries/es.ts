@@ -65,7 +65,27 @@ Estos universos diferentes me permiten ofrecerte un acompañamiento global y per
 ¡Espero conocerte pronto!
 Christel`
   },
-  contact: { title:"Contacto", name:"Nombre", email:"Email", message:"Mensaje", send:"Enviar", whatsapp:"Escríbenos por WhatsApp" },
+  contact: { title:"Contacto", name:"Nombre", email:"Email", message:"Mensaje", send:"Enviar", whatsapp:"Escríbenos por WhatsApp", sending:"Enviando...", successMessage:"Mensaje enviado. ¡Te responderemos pronto!", errorMessage:"Ha ocurrido un error. Inténtalo de nuevo o escríbenos directamente." },
+  booking: {
+    dateLabel: "Fecha",
+    timeLabel: "Horario",
+    loadingSlots: "Cargando horarios...",
+    noSlots: "No hay horarios disponibles para esta fecha.",
+    namePlaceholder: "Nombre y apellidos",
+    emailPlaceholder: "Email",
+    phonePlaceholder: "Teléfono (opcional)",
+    notesPlaceholder: "Notas (opcional)",
+    confirmButton: "Confirmar reserva",
+    submitting: "Reservando...",
+    successMessage: "Reserva confirmada para el {date} a las {time}. ¡Hasta pronto!",
+    genericError: "Error al realizar la reserva.",
+    slotTakenError: "Este horario ya no está disponible.",
+    emailSubject: "Reserva confirmada — {service}",
+    emailHeading: "Reserva confirmada",
+    emailGreeting: "Hola {name},",
+    emailBody: "tu reserva para {service} está confirmada para el {date} a las {time}.",
+    emailFooter: "Si necesitas modificar o cancelar esta cita, simplemente responde a este email."
+  },
   services: {
       shiatsu: {
         title: "Shiatsu",

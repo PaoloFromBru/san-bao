@@ -1,6 +1,6 @@
 
 import { getDictionary, type Locale, locales } from "@/dictionaries";
-import SetmoreButton from "@/components/SetmoreButton";
+import BookingWidget from "@/components/BookingWidget";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -33,7 +33,12 @@ export default async function ShiatsuPage({ params }: { params: Promise<{ locale
           <h1 className="text-3xl font-semibold text-ink">{t.title}</h1>
           <p className="mt-4 text-lg text-slate-700">{t.lead}</p>
           <div className="mt-8 flex gap-4">
-            <SetmoreButton alt={t.cta} />
+            <BookingWidget
+              serviceSlug="shiatsu"
+              ctaLabel={t.cta}
+              locale={locale}
+              strings={dict.booking}
+            />
             <Link
               href={`/${locale}/services/shiatsu/more`}
               className="inline-block px-5 py-3 rounded-xl2 border border-gold text-gold hover:bg-gold hover:text-white transition"
