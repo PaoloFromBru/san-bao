@@ -12,6 +12,7 @@ type BookingEmailStrings = {
   emailHeading: string;
   emailGreeting: string;
   emailBody: string;
+  emailLocation: string;
   emailFooter: string;
 };
 
@@ -22,6 +23,7 @@ type BookingEmailInput = {
   clientServiceName: string;
   dateLabel: string;
   time: string;
+  locationAddress: string;
   clientName: string;
   clientEmail: string;
   clientPhone?: string | null;
@@ -37,6 +39,7 @@ export async function sendBookingEmails(input: BookingEmailInput) {
     service: input.clientServiceName,
     date: input.dateLabel,
     time: input.time,
+    location: input.locationAddress,
   };
 
   const results = await Promise.allSettled([
@@ -48,6 +51,7 @@ export async function sendBookingEmails(input: BookingEmailInput) {
         heading: input.clientStrings.emailHeading,
         greeting: format(input.clientStrings.emailGreeting, vars),
         body: format(input.clientStrings.emailBody, vars),
+        location: format(input.clientStrings.emailLocation, vars),
         footer: input.clientStrings.emailFooter,
       }),
     }),

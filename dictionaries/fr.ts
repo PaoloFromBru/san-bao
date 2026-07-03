@@ -66,6 +66,7 @@ Christel`
   contact: { title:"Contacts", name:"Nom", email:"Email", message:"Message", send:"Envoyer", whatsapp:"Écrivez‑nous sur WhatsApp", sending:"Envoi...", successMessage:"Message envoyé. Nous vous répondrons rapidement !", errorMessage:"Erreur lors de l'envoi. Réessayez ou écrivez‑nous directement." },
   booking: {
     dateLabel: "Date",
+    locationLabel: "Lieu",
     timeLabel: "Horaire",
     loadingSlots: "Chargement des horaires...",
     noSlots: "Aucun horaire disponible à cette date.",
@@ -82,6 +83,7 @@ Christel`
     emailHeading: "Réservation confirmée",
     emailGreeting: "Bonjour {name},",
     emailBody: "votre réservation pour {service} est confirmée pour le {date} à {time}.",
+    emailLocation: "Lieu : {location}",
     emailFooter: "Si vous devez modifier ou annuler ce rendez‑vous, répondez simplement à cet email."
   },
   services: {

@@ -1,5 +1,6 @@
 import { getDictionary, type Locale, locales } from "@/dictionaries";
 import BookingWidget from "@/components/BookingWidget";
+import { getLocations } from "@/lib/locations";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 
 export default async function QiNeiZangPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
+  const [dict, locationsList] = await Promise.all([getDictionary(locale), getLocations()]);
   const t = dict.services.qiNeiZang;
   return (
     <article className="mx-auto max-w-6xl px-4 py-12">
@@ -36,6 +37,7 @@ export default async function QiNeiZangPage({ params }: { params: Promise<{ loca
               ctaLabel={t.cta}
               locale={locale}
               strings={dict.booking}
+              locations={locationsList}
             />
             <Link
               href={`/${locale}/services/qi-nei-zang/more`}

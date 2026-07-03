@@ -4,10 +4,17 @@ type Props = {
   heading: string;
   greeting: string;
   body: string;
+  location: string;
   footer: string;
 };
 
-export default function ClientConfirmationEmail({ heading, greeting, body, footer }: Props) {
+export default function ClientConfirmationEmail({
+  heading,
+  greeting,
+  body,
+  location,
+  footer,
+}: Props) {
   return (
     <Html>
       <Head />
@@ -23,6 +30,9 @@ export default function ClientConfirmationEmail({ heading, greeting, body, foote
           <Heading style={{ color: "#0f172a", fontSize: "20px" }}>{heading}</Heading>
           <Text style={{ color: "#334155", fontSize: "15px" }}>{greeting}</Text>
           <Text style={{ color: "#334155", fontSize: "15px" }}>{body}</Text>
+          <Text style={{ color: "#0f172a", fontSize: "15px", fontWeight: "bold" }}>
+            📍 {location}
+          </Text>
           <Text style={{ color: "#334155", fontSize: "15px" }}>{footer}</Text>
           <Hr style={{ borderColor: "#e2e8f0", margin: "24px 0" }} />
           <Text style={{ color: "#94a3b8", fontSize: "13px" }}>

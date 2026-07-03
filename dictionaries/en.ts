@@ -70,6 +70,7 @@ Christel`
   contact: { title:"Contact", name:"Name", email:"Email", message:"Message", send:"Send", whatsapp:"Message us on WhatsApp", sending:"Sending...", successMessage:"Message sent. We'll get back to you soon!", errorMessage:"Something went wrong. Please try again or email us directly." },
   booking: {
     dateLabel: "Date",
+    locationLabel: "Location",
     timeLabel: "Time",
     loadingSlots: "Loading available times...",
     noSlots: "No time slots available for this date.",
@@ -86,6 +87,7 @@ Christel`
     emailHeading: "Booking confirmed",
     emailGreeting: "Hi {name},",
     emailBody: "your booking for {service} is confirmed for {date} at {time}.",
+    emailLocation: "Location: {location}",
     emailFooter: "If you need to change or cancel this appointment, just reply to this email."
   },
   services: {

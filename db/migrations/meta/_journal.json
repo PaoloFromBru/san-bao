@@ -15,6 +15,13 @@
       "when": 1782988538076,
       "tag": "0001_military_menace",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1783059497064,
+      "tag": "0002_natural_silk_fever",
+      "breakpoints": true
     }
   ]
 }

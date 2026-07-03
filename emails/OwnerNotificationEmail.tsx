@@ -4,6 +4,7 @@ type Props = {
   serviceName: string;
   dateLabel: string;
   time: string;
+  locationAddress: string;
   clientName: string;
   clientEmail: string;
   clientPhone?: string | null;
@@ -14,6 +15,7 @@ export default function OwnerNotificationEmail({
   serviceName,
   dateLabel,
   time,
+  locationAddress,
   clientName,
   clientEmail,
   clientPhone,
@@ -34,6 +36,9 @@ export default function OwnerNotificationEmail({
           <Heading style={{ color: "#0f172a", fontSize: "20px" }}>Nuova prenotazione</Heading>
           <Text style={{ color: "#334155", fontSize: "15px" }}>
             <strong>{serviceName}</strong> — {dateLabel} alle {time}
+          </Text>
+          <Text style={{ color: "#0f172a", fontSize: "15px", fontWeight: "bold" }}>
+            📍 {locationAddress}
           </Text>
           <Hr style={{ borderColor: "#e2e8f0", margin: "16px 0" }} />
           <Text style={{ color: "#334155", fontSize: "15px", margin: "4px 0" }}>

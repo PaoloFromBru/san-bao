@@ -27,11 +27,20 @@ export const blockedDates = sqliteTable("blocked_dates", {
   reason: text("reason"),
 });
 
+// The practitioner's two practice addresses. Editable via /admin/locations.
+export const locations = sqliteTable("locations", {
+  id: integer("id").primaryKey({ autoIncrement: true }),
+  address: text("address").notNull(),
+});
+
 export const bookings = sqliteTable("bookings", {
   id: integer("id").primaryKey({ autoIncrement: true }),
   serviceId: integer("service_id")
     .notNull()
     .references(() => services.id),
+  // Nullable only because bookings made before the multi-location feature
+  // existed have no recorded location. All new bookings must set it.
+  locationId: integer("location_id").references(() => locations.id),
   clientName: text("client_name").notNull(),
   clientEmail: text("client_email").notNull(),
   clientPhone: text("client_phone"),

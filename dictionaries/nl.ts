@@ -68,6 +68,7 @@ Christel`
   contact: { title:"Contact", name:"Naam", email:"E‑mail", message:"Bericht", send:"Versturen", whatsapp:"Schrijf ons op WhatsApp", sending:"Versturen...", successMessage:"Bericht verzonden. We nemen snel contact met u op!", errorMessage:"Er is iets misgegaan. Probeer het opnieuw of mail ons rechtstreeks." },
   booking: {
     dateLabel: "Datum",
+    locationLabel: "Locatie",
     timeLabel: "Tijdstip",
     loadingSlots: "Beschikbare tijden laden...",
     noSlots: "Geen beschikbare tijden op deze datum.",
@@ -84,6 +85,7 @@ Christel`
     emailHeading: "Afspraak bevestigd",
     emailGreeting: "Hallo {name},",
     emailBody: "je afspraak voor {service} is bevestigd op {date} om {time}.",
+    emailLocation: "Locatie: {location}",
     emailFooter: "Wil je deze afspraak wijzigen of annuleren? Antwoord gewoon op deze email."
   },
   services: {

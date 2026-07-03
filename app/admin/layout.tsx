@@ -24,6 +24,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 <Link href="/admin/holidays" className="text-slate-500 hover:text-ink">
                   Chiusure
                 </Link>
+                <Link href="/admin/locations" className="text-slate-500 hover:text-ink">
+                  Sedi
+                </Link>
               </nav>
             </div>
             <LogoutButton />

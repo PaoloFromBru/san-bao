@@ -1,6 +1,7 @@
 
 import { getDictionary, type Locale, locales } from "@/dictionaries";
 import BookingWidget from "@/components/BookingWidget";
+import { getLocations } from "@/lib/locations";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 
 export default async function NaturopathyPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
+  const [dict, locationsList] = await Promise.all([getDictionary(locale), getLocations()]);
   const t = dict.services.naturopathy;
 
   return (
@@ -38,6 +39,7 @@ export default async function NaturopathyPage({ params }: { params: Promise<{ lo
               ctaLabel={t.cta}
               locale={locale}
               strings={dict.booking}
+              locations={locationsList}
             />
             <Link
               href={`/${locale}/services/naturopathy/more`}

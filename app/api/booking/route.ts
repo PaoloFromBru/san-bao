@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { db } from "@/db/client";
-import { services, bookings } from "@/db/schema";
+import { services, bookings, locations } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import { getAvailableSlots } from "@/lib/availability";
 import { sendBookingEmails } from "@/lib/email";
@@ -10,10 +10,10 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export async function POST(req: Request) {
   const body = await req.json();
-  const { serviceSlug, date, time, name, email, phone, notes, locale } = body ?? {};
+  const { serviceSlug, date, time, name, email, phone, notes, locale, locationId } = body ?? {};
   const clientLocale: Locale = locales.includes(locale) ? locale : "it";
 
-  if (!serviceSlug || !date || !time || !name || !email) {
+  if (!serviceSlug || !date || !time || !name || !email || !locationId) {
     return NextResponse.json({ error: "Campi obbligatori mancanti" }, { status: 400 });
   }
   if (!EMAIL_RE.test(email)) {
@@ -24,10 +24,14 @@ export async function POST(req: Request) {
   if (!service) {
     return NextResponse.json({ error: "Servizio non trovato" }, { status: 404 });
   }
+  const [location] = await db.select().from(locations).where(eq(locations.id, locationId));
+  if (!location) {
+    return NextResponse.json({ error: "Sede non trovata" }, { status: 404 });
+  }
 
   // Re-check availability server-side right before writing, so two people
   // can't both grab the same slot between page load and submit.
-  const slots = await getAvailableSlots(serviceSlug, date);
+  const slots = await getAvailableSlots(serviceSlug, date, locationId);
   if (!slots.includes(time)) {
     return NextResponse.json({ error: "Questo orario non è più disponibile" }, { status: 409 });
   }
@@ -38,6 +42,7 @@ export async function POST(req: Request) {
 
   await db.insert(bookings).values({
     serviceId: service.id,
+    locationId: location.id,
     clientName: name,
     clientEmail: email,
     clientPhone: phone || null,
@@ -59,6 +64,7 @@ export async function POST(req: Request) {
     clientServiceName,
     dateLabel: `${d}/${mo}/${y}`,
     time,
+    locationAddress: location.address,
     clientName: name,
     clientEmail: email,
     clientPhone: phone,
