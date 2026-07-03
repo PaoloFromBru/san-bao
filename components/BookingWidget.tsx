@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { format } from "@/lib/format";
+import Calendar from "@/components/Calendar";
 
 type BookingStrings = {
   dateLabel: string;
@@ -151,12 +152,12 @@ export default function BookingWidget({
 
       <div>
         <label className="block text-sm text-slate-500 mb-1">{t.dateLabel}</label>
-        <input
-          type="date"
-          value={date}
-          min={todayIso()}
-          onChange={(e) => loadSlots(e.target.value, locationId)}
-          className="rounded-xl2 border px-3 py-2 w-full"
+        <Calendar
+          serviceSlug={serviceSlug}
+          locationId={locationId}
+          selectedDate={date}
+          onSelect={(d) => loadSlots(d, locationId)}
+          locale={locale}
         />
       </div>
 
