@@ -2,10 +2,18 @@ import { db } from "@/db/client";
 import { availabilityRules, blockedDates, bookings, services } from "@/db/schema";
 import { and, eq, isNull, lte, gte, like } from "drizzle-orm";
 
-// Time needed to get from one practice location to the other. Only applies
-// when the booking immediately before/after a candidate slot is at the
-// *other* location — back-to-back bookings at the same location need no gap.
+// Time needed to get from one practice location to the other.
 const TRAVEL_BUFFER_MINUTES = 40;
+// Minimum gap she wants between any two appointments, same location or not
+// (rest/prep time). Travel time already covers this when locations differ,
+// since 40 > 30, so the two never stack.
+const APPOINTMENT_BUFFER_MINUTES = 30;
+
+function requiredGapMinutes(neighborLocationId: number | null, candidateLocationId: number) {
+  return neighborLocationId !== candidateLocationId
+    ? TRAVEL_BUFFER_MINUTES
+    : APPOINTMENT_BUFFER_MINUTES;
+}
 
 function getWeekday(date: string): number {
   // Parsed as UTC midnight purely to read the day-of-week off a calendar
@@ -82,7 +90,7 @@ export async function getAvailableSlots(
 
       // Nearest booking ending at/before this slot, and nearest booking
       // starting at/after it — the only two that can constrain a same-day,
-      // non-overlapping slot via the travel buffer.
+      // non-overlapping slot via a buffer requirement.
       const prev = dayBookings
         .filter((b) => b.end <= slotStart)
         .sort((a, b) => b.end - a.end)[0];
@@ -90,12 +98,12 @@ export async function getAvailableSlots(
         .filter((b) => b.start >= slotEnd)
         .sort((a, b) => a.start - b.start)[0];
 
-      const violatesTravelBefore =
-        prev && prev.locationId !== locationId && slotStart < prev.end + TRAVEL_BUFFER_MINUTES;
-      const violatesTravelAfter =
-        next && next.locationId !== locationId && slotEnd + TRAVEL_BUFFER_MINUTES > next.start;
+      const violatesBufferBefore =
+        prev && slotStart < prev.end + requiredGapMinutes(prev.locationId, locationId);
+      const violatesBufferAfter =
+        next && slotEnd + requiredGapMinutes(next.locationId, locationId) > next.start;
 
-      if (!isPast && !overlapsBooking && !violatesTravelBefore && !violatesTravelAfter) {
+      if (!isPast && !overlapsBooking && !violatesBufferBefore && !violatesBufferAfter) {
         slots.push(minutesToTime(slotStart));
       }
       cursor += slotStep;
